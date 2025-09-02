@@ -1,0 +1,1822 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>Medidos Con Exito - 2025.kmz</name>
+	<StyleMap id="msn_blue-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_blue-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_blue-pushpin10</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_blue-pushpin0">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_blue-pushpin0</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_blue-pushpin2</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_blue-pushpin00">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_blue-pushpin10</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_blue-pushpin0</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_blue-pushpin1">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_blue-pushpin6</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_blue-pushpin</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_blue-pushpin10">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_blue-pushpin11</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_blue-pushpin6</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_blue-pushpin11">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_blue-pushpin4</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_blue-pushpin20</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_blue-pushpin2">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_blue-pushpin00</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_blue-pushpin9</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_blue-pushpin3">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_blue-pushpin3</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_blue-pushpin1</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_blue-pushpin4">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_blue-pushpin9</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_blue-pushpin3</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_blue-pushpin5">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_blue-pushpin7</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_blue-pushpin5</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_blue-pushpin6">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_blue-pushpin2</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_blue-pushpin11</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_blue-pushpin7">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_blue-pushpin1</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_blue-pushpin7</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_blue-pushpin8">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_blue-pushpin5</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_blue-pushpin4</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_blue-pushpin9">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_blue-pushpin8</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_blue-pushpin8</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_blue-pushpin">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/blue-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LabelStyle>
+			<color>ffffff00</color>
+		</LabelStyle>
+	</Style>
+	<Style id="sh_blue-pushpin0">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/blue-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LabelStyle>
+			<color>ffffff00</color>
+		</LabelStyle>
+	</Style>
+	<Style id="sh_blue-pushpin1">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/blue-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LabelStyle>
+			<color>ffffff00</color>
+		</LabelStyle>
+	</Style>
+	<Style id="sh_blue-pushpin10">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/blue-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LabelStyle>
+			<color>ffffff00</color>
+		</LabelStyle>
+	</Style>
+	<Style id="sh_blue-pushpin11">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/blue-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LabelStyle>
+			<color>ffffff00</color>
+		</LabelStyle>
+	</Style>
+	<Style id="sh_blue-pushpin2">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/blue-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LabelStyle>
+			<color>ffffff00</color>
+		</LabelStyle>
+	</Style>
+	<Style id="sh_blue-pushpin20">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/blue-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LabelStyle>
+			<color>ffffff00</color>
+		</LabelStyle>
+	</Style>
+	<Style id="sh_blue-pushpin3">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/blue-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LabelStyle>
+			<color>ffffff00</color>
+		</LabelStyle>
+	</Style>
+	<Style id="sh_blue-pushpin4">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/blue-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LabelStyle>
+			<color>ffffff00</color>
+		</LabelStyle>
+	</Style>
+	<Style id="sh_blue-pushpin5">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/blue-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LabelStyle>
+			<color>ffffff00</color>
+		</LabelStyle>
+	</Style>
+	<Style id="sh_blue-pushpin6">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/blue-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LabelStyle>
+			<color>ffffff00</color>
+		</LabelStyle>
+	</Style>
+	<Style id="sh_blue-pushpin7">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/blue-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LabelStyle>
+			<color>ffffff00</color>
+		</LabelStyle>
+	</Style>
+	<Style id="sh_blue-pushpin8">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/blue-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LabelStyle>
+			<color>ffffff00</color>
+		</LabelStyle>
+	</Style>
+	<Style id="sh_blue-pushpin9">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/blue-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LabelStyle>
+			<color>ffffff00</color>
+		</LabelStyle>
+	</Style>
+	<Style id="sn_blue-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/blue-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LabelStyle>
+			<color>ffffff00</color>
+		</LabelStyle>
+	</Style>
+	<Style id="sn_blue-pushpin0">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/blue-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LabelStyle>
+			<color>ffffff00</color>
+		</LabelStyle>
+	</Style>
+	<Style id="sn_blue-pushpin00">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/blue-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LabelStyle>
+			<color>ffffff00</color>
+		</LabelStyle>
+	</Style>
+	<Style id="sn_blue-pushpin1">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/blue-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LabelStyle>
+			<color>ffffff00</color>
+		</LabelStyle>
+	</Style>
+	<Style id="sn_blue-pushpin10">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/blue-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LabelStyle>
+			<color>ffffff00</color>
+		</LabelStyle>
+	</Style>
+	<Style id="sn_blue-pushpin11">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/blue-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LabelStyle>
+			<color>ffffff00</color>
+		</LabelStyle>
+	</Style>
+	<Style id="sn_blue-pushpin2">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/blue-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LabelStyle>
+			<color>ffffff00</color>
+		</LabelStyle>
+	</Style>
+	<Style id="sn_blue-pushpin3">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/blue-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LabelStyle>
+			<color>ffffff00</color>
+		</LabelStyle>
+	</Style>
+	<Style id="sn_blue-pushpin4">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/blue-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LabelStyle>
+			<color>ffffff00</color>
+		</LabelStyle>
+	</Style>
+	<Style id="sn_blue-pushpin5">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/blue-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LabelStyle>
+			<color>ffffff00</color>
+		</LabelStyle>
+	</Style>
+	<Style id="sn_blue-pushpin6">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/blue-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LabelStyle>
+			<color>ffffff00</color>
+		</LabelStyle>
+	</Style>
+	<Style id="sn_blue-pushpin7">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/blue-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LabelStyle>
+			<color>ffffff00</color>
+		</LabelStyle>
+	</Style>
+	<Style id="sn_blue-pushpin8">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/blue-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LabelStyle>
+			<color>ffffff00</color>
+		</LabelStyle>
+	</Style>
+	<Style id="sn_blue-pushpin9">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/blue-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LabelStyle>
+			<color>ffffff00</color>
+		</LabelStyle>
+	</Style>
+	<Folder>
+		<name>Medidos Con Exito - 2025</name>
+		<visibility>0</visibility>
+		<Placemark>
+			<name>P - 7</name>
+			<visibility>0</visibility>
+			<description>Ubicacion: Sobre canal Marginal. se ingresa por el camino de Los Coroneles, pasando el Dique G. Vitali, luego se gira a la izquierda (3 km al ESTE). Central Los Coroneles.
+Nº pozo - 17/ sn
+asnm - 836m
+diam - 8&quot;
+medida a/b - 0.10m
+N.E. - 19 (- 4.40m) / 20 ( - 3.10m ) / 21(-3.83m) / 22(-4.04m)
+fecha - 04/07/2019 / 05/07/2021 / 01/06/2022
+-
+FECHA 27/06/2025
+NE:3.52m</description>
+			<LookAt>
+				<longitude>-68.52736465867025</longitude>
+				<latitude>-34.59970022404329</latitude>
+				<altitude>0</altitude>
+				<heading>1.545957780247167</heading>
+				<tilt>17.45541830685806</tilt>
+				<range>244.8841255346643</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_blue-pushpin4</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-68.52813006911047,-34.59976116541813,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>P - 100</name>
+			<visibility>0</visibility>
+			<description>Ubicación: Finca Susana Garavaglia, Alto del Algarrobal 900m antes de la Escuela, mano derecha.
+Ficha:17/2175
+Alt:579m
+Diametro: 10&quot;
+Cota:  0.35m
+N.E. - 19(-9.51m) - 20(-9.64m) - 21(-9.57m)
+fecha - 06/08/2019 - 06/07/2020 - 13/08/2021
+-
+fecha - 08/07/2025
+Cota: 0
+N.E.: 9.48m - 0m: 9.48m</description>
+			<LookAt>
+				<longitude>-68.13241636280253</longitude>
+				<latitude>-34.62311243894317</latitude>
+				<altitude>0</altitude>
+				<heading>1.801042562859963</heading>
+				<tilt>28.2455164552608</tilt>
+				<range>186.6801042729062</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_blue-pushpin</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-68.13264248104988,-34.62313492509476,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>P - 105</name>
+			<visibility>0</visibility>
+			<description>Ubicación: Finca Brünner, 500 m al NORTE  de la &quot;H&quot;. se puede ingresar por el camino que sale de RN 146, pasando desagüe Gral. del Norte, mano izquierda. Se llega a la &quot;H&quot;, se ingresa a Finca Lopez (ex-Resero).
+
+nº pozo - 17/1230
+asnm - 572 m
+diam - 12&quot;
+medida a/b - 0.18m
+N.E. - 19(-7.46m)-20(-7.53m) - 21(-7.90m)
+fecha - 06/08/2019- 07/07/2020 - 18/08/2021
+-
+fecha :8/07/2025
+Cota: 0m
+NE: 5.32m</description>
+			<LookAt>
+				<longitude>-68.12316320081418</longitude>
+				<latitude>-34.58337483613037</latitude>
+				<altitude>0</altitude>
+				<heading>0.04523254232517831</heading>
+				<tilt>22.95030372977136</tilt>
+				<range>283.0491602881472</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_blue-pushpin11</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-68.12397826664152,-34.58328001171477,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>P - 11</name>
+			<visibility>0</visibility>
+			<description>Ubicacion: Champañera Bianchi. El pozo se encuentra dentro de la propiedad en RN 143 y Calle Carmona, distrito de Las Paredes.
+
+Nº pozo - 17/0155
+asnm - 776
+diam - 12&quot;
+medida a/b - 0.22m
+N.E. - 19 (-13.18m) / 20 ( - 12.60m) / 21(-13.04m) / 22(-14.46m)
+fecha - 04/07/2019 / 26/07/2021 / 02/06/2022
+-
+fecha 16/06/2023
+NE: 14.57m
+- 
+fecha 03/07/2025
+NE: 12.46m</description>
+			<LookAt>
+				<longitude>-68.43108197127881</longitude>
+				<latitude>-34.58165680302525</latitude>
+				<altitude>0</altitude>
+				<heading>1.50784233611531</heading>
+				<tilt>29.99954608413882</tilt>
+				<range>200.2100916908111</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_blue-pushpin2</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-68.43116753002002,-34.58156665306773,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>P - 4</name>
+			<visibility>0</visibility>
+			<description>Ubicacion: zona Fuerte San Rafael, sobre el lateral ESTE del mismo. Villa 25 de Mayo.(Rio Minsa)
+Nº pozo - 17/0720.
+asnm - 850m
+diam - 1.40m (cielo abierto)
+medida a/b - 0.84m
+N.E. - 19 (- 4.06m) / 20 ( - 4.87m) / 21(- 5.73m) / 22(-4.90m)
+fecha - 04/07/2019 / 05/07/2021 - 01/06/2022
+-
+FECHA 27/06/2025
+NE:5.36m</description>
+			<LookAt>
+				<longitude>-68.54860652655364</longitude>
+				<latitude>-34.58872647061346</latitude>
+				<altitude>0</altitude>
+				<heading>2.033483273289594</heading>
+				<tilt>27.91393137689245</tilt>
+				<range>213.8666022228379</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_blue-pushpin4</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-68.5489174561415,-34.58881665632363,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>P - 110</name>
+			<visibility>0</visibility>
+			<description>Ubicación: Estancia El Forestal, Colonia Elena. Se ingresa por calle El Clavel, 1 km antes del Destacamento Policial, mano derecha en sentido SUR - NORTE, 3.8 km al OESTE. Callejon central de la propiedad.
+
+nº pozo - 17/2149
+asnm - 571 m
+diam - 12&quot; con salida de 10&quot;
+medida a/b - 0.38m
+N.E. - 19(-8.37m) - 20(s/medir) - 21(-9.49m)
+fecha - 06/08/2019 - 07/07/2020 - 18/08/2021
+observaciones - 07/07/2020 s/ medir, camino cortado por reparacion de puente.
+- 
+fecha :8/07/2025
+Cota: 0 
+NE: 8.21m</description>
+			<LookAt>
+				<longitude>-68.09886263367292</longitude>
+				<latitude>-34.55288422778042</latitude>
+				<altitude>0</altitude>
+				<heading>0.02023067452924807</heading>
+				<tilt>23.82130153440906</tilt>
+				<range>388.825535880512</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_blue-pushpin8</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-68.10039456316181,-34.55254379684382,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>P - 113</name>
+			<visibility>0</visibility>
+			<description>Ubicación: Finca MANISUR, calle Barrera, Colonia Elena. Se ingresa desde RN  146, 1 km al OESTE de la curva del Destacamento Policial. El pozo se encuentra a 650m al NORTE del ingreso principal.
+
+nº pozo - 17/2197
+asnm - 556m
+diam - 10&quot; con salida de 8&quot;
+medida a/b - 0.45m
+N.E. - 19(-6.94m) - 20(-8.68m) - 21(-8.68m)
+fecha - 06/08/2019 - 07/07/2020 - 17/08/2021
+-
+fecha :8/07/2025
+Cota: 0m
+NE: 3.20m</description>
+			<LookAt>
+				<longitude>-68.07615049135474</longitude>
+				<latitude>-34.55792414172612</latitude>
+				<altitude>0</altitude>
+				<heading>0.01247316114853123</heading>
+				<tilt>28.94796017593553</tilt>
+				<range>221.5178614600668</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_blue-pushpin8</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-68.07612498816994,-34.55807942776541,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>P - 115</name>
+			<visibility>0</visibility>
+			<description>Ubicación: Finca Litexco, sobre calle Apiloza, 500 m al ESTE del ingreso a l propiedad. Pozo nº 6.
+
+nº pozo - 17/1371
+asnm - 558m
+diam - 12&quot;
+medida a/b - 0.40
+N.E. - 19(-9.76m) - 20(-6.15m) - 21(-6.60m)
+fecha - 06/08/2019 - 06/07/2020 - 17/08/2021
+- 
+fecha :8/07/2025
+Cota: 0m
+NE: 3.47m</description>
+			<LookAt>
+				<longitude>-68.0483617976094</longitude>
+				<latitude>-34.56321622556689</latitude>
+				<altitude>0</altitude>
+				<heading>-0.001876610373595833</heading>
+				<tilt>22.78889379812551</tilt>
+				<range>197.490278955779</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_blue-pushpin8</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-68.04869527972427,-34.56316842083629,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>P - 116</name>
+			<visibility>0</visibility>
+			<description>Ubicación: Finca Litexco sobre calle Lara esquina calle Apiolaza, a 1 km al NORTE de RN 146, sector ESTE de la propiedad.
+
+nº pozo - 17/0953
+asnm - 553m
+diam - 4&quot;
+medida a/b - 0 m
+N.E. - 19(-3.52m) - 20(-4.21m) - 21(-4.50m)
+fecha - 06/08/2019 - 06/07/2020 - 18/08/2021
+-
+fecha :8/07/2025
+Cota: 0m
+NE:2.94m</description>
+			<LookAt>
+				<longitude>-68.02304553263532</longitude>
+				<latitude>-34.57016602568263</latitude>
+				<altitude>0</altitude>
+				<heading>-0.01634142613877011</heading>
+				<tilt>19.75801009223871</tilt>
+				<range>262.1761062868702</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_blue-pushpin8</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-68.02353191544583,-34.5702077522222,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>P - 168</name>
+			<visibility>0</visibility>
+			<description>Ubicación: Bodega Lavaque ( Viñas de Altura), RP 165 Cañada Seca. el pozo se encuentra debajo de una planta en la playa de maniobras, fente al ingreso a Administración y Laboratorio.
+nº pozo - 17/1772
+asnm - 616 m
+diam - 8&quot;
+mediada a/b - 0.45 m
+N.E. - 19(-4.00 m)-20(-3.72m)-21(-3.65m)-22(-3.82m)
+fecha - 22/08/19-18/06/20-13/07/22
+-
+FECHA 3/07/2025
+NE:2.25M</description>
+			<LookAt>
+				<longitude>-68.23917769182448</longitude>
+				<latitude>-34.68585820514403</latitude>
+				<altitude>0</altitude>
+				<heading>1.556044253490329</heading>
+				<tilt>17.45922442342321</tilt>
+				<range>163.8788262374781</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_blue-pushpin4</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-68.2391579572102,-34.6857529888493,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>P - 117</name>
+			<visibility>0</visibility>
+			<description>Ubicación: Finca Navarro Juri, por calle Lara NORTE a 4 km de RN 146.
+
+nº pozo - 17/1615
+asnm - 546m
+diam - 12&quot; con salida de 8&quot;
+medida a/b - 0 m
+N.E. - 19(-3.06m) - 20(-3.60m) - 21(-4.80m)
+fecha - 06/08/2019 - 06/07/2020 - 17/08/2021
+-
+fecha :8/07/2025
+N.E.: 3.10m</description>
+			<LookAt>
+				<longitude>-68.0097405164331</longitude>
+				<latitude>-34.54566716722996</latitude>
+				<altitude>0</altitude>
+				<heading>-0.02273741351015753</heading>
+				<tilt>26.50655286399522</tilt>
+				<range>189.0531550741432</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_blue-pushpin10</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-68.0099235980925,-34.54523160012941,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>P - 118</name>
+			<visibility>0</visibility>
+			<description>Ubicación: Finca Ellis Robin Ronald, Colonia Elena. Se ingresa por calle El Clavel, 1 km a la derecha desde RN 146, 1 km antes del Destacamento Policial, hasta el cruce de la diagonal.
+
+nº pozo - 17/0743
+asnm - 544m
+diam - 8&quot; con salida de 6&quot;
+medida a/b - 0.60m
+N.E. - 19(-4.64m) - 20(-4.88m) - 21(-4.88m)
+fecha - 06/08/2019 - 06/07/2020 - 17/08/2021
+-
+fecha :8/07/2025
+Cota: 0m
+NE: 3.20m</description>
+			<LookAt>
+				<longitude>-68.06164686561031</longitude>
+				<latitude>-34.57719510746291</latitude>
+				<altitude>0</altitude>
+				<heading>-0.1900977601371988</heading>
+				<tilt>24.23897694845965</tilt>
+				<range>573.4956895071495</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_blue-pushpin8</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-68.06140737505397,-34.57756149496802,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>P - 160</name>
+			<visibility>0</visibility>
+			<description>Ubicación: Establecimiemto Industrial Arcor SA, calle Gutierrez y Arroyo, Rama Caida.
+nº pozo - 17/1495
+asnm - 676 m
+diam - 10&quot; con salida de 6&quot;
+medida a/b - 0.25 m
+N.E. - 19(-13.20 m)-20(-13.93m)-21(-12.80m)-22(-11.26m)
+fecha - 13/08/19-11/06/20-09/08/21-05/07/22
+-
+FECHA 3/07/2025
+NE:9.10m</description>
+			<LookAt>
+				<longitude>-68.36243711700904</longitude>
+				<latitude>-34.70214449722923</latitude>
+				<altitude>0</altitude>
+				<heading>1.564907288731673</heading>
+				<tilt>30.00050308477841</tilt>
+				<range>112.2881812076642</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_blue-pushpin1</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-68.36239464490451,-34.70215563033833,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>P - 13</name>
+			<visibility>0</visibility>
+			<description>Ubicación: Criadero RINA POLLOS Finca La Palmira, calle Sardini NORTE,  a 800m de RN 143, mano izquierda.
+
+Nº pozo - 17/s/n
+asnm - 789m
+diam - 4&quot;
+medida a/b - 0.77m
+N.E. - 19 (-15.28m) / 20 ( -13.39m) / 21 (-14.29m) / 22(16.52m)
+fecha últ. med. - 19/07/2021 - 19/07/2021 / 02/06/2022
+-
+Fecha : 2/7/2025
+Cota :0.3m
+NE:12.52m</description>
+			<LookAt>
+				<longitude>-68.4421056457554</longitude>
+				<latitude>-34.57521584261147</latitude>
+				<altitude>0</altitude>
+				<heading>0.01345990895735397</heading>
+				<tilt>23.4892825351877</tilt>
+				<range>183.8871054773589</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_blue-pushpin2</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-68.44203347753698,-34.57510925438149,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>P - 156</name>
+			<visibility>0</visibility>
+			<description>Ubicación: Cabañas Rojo, calle Cubillos 3200 mano izquierda, a 250 al SUR de calle Quiroga.
+
+nº pozo - s/n DGI en tramite de inscripción
+asnm - 702 m
+diam - 0.90m cielo abierto con alida de 2&quot;
+medida a/b - 0.45 m
+N.E. - 19(-22.09 m)-20 (-22.83m)-21(-21.75m)-22(-23.16m)
+fecha - 13/08/19-08/06/20-29/07/21-05/07/22
+-
+FECHA 3/07/2025
+NE:19.10M</description>
+			<LookAt>
+				<longitude>-68.38201965027163</longitude>
+				<latitude>-34.6821604387778</latitude>
+				<altitude>0</altitude>
+				<heading>1.94202309044482</heading>
+				<tilt>30.00107514910048</tilt>
+				<range>239.5537048956178</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_blue-pushpin1</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-68.3825947805733,-34.68237349662601,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>P - 140</name>
+			<visibility>0</visibility>
+			<description>Ubicación: Finca Chicho Russo Goudge. Pasando Alto del Algarrobal, doblar a la izquierda cruce a Goudge, 2.7 km al SUR de RN 146. Pasando el Rio Diamante, primer finca a mano derecha en sentido NORTE - SUR.
+
+N° Pozo: 17/476
+Alt:566 m
+Diametro entubación:10&quot;
+Diametro de Salida: 8&quot;
+Cota:  2.10 m 
+N.E. - 19(- 6.82 m) - 20(-7.30m) - 21(-7.18m)
+fecha - 12/08/2019 - 06/07/2020 - 13/08/2021
+-
+fecha - 8/07/2025
+NE: 8.58m - 2.1m: 6.48m</description>
+			<LookAt>
+				<longitude>-68.11447231530445</longitude>
+				<latitude>-34.64266678017321</latitude>
+				<altitude>0</altitude>
+				<heading>0.3481669217687187</heading>
+				<tilt>30.00057590259238</tilt>
+				<range>128.2198570959009</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_blue-pushpin0</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-68.1146764554546,-34.64286506362887,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>P - 141</name>
+			<visibility>0</visibility>
+			<description>Ubicación: Finca Las Cinas (Moureto, Claude Adrian), Goudge. Se llega recorriendo desde RN 146, 3.8 km en dirección SUR. Se gira a la izquierda 1 km, crusar el canal y hacer 1 km paralelo a este, luego doblar a la derecha 1.8 km. Sobre el laterla NORTE se encuentra Finca Las Cinas
+
+Nº pozo:17/2073
+Alt:568 m
+Diametro de Entubacion: 6&quot;
+Diametro de Salida: 2&quot;
+Cota: 0.40 m
+N.E. - 19(- 7.80 m) - 20(-8.24m) - 21(-8.08m)
+fecha: 12/08/2019 - 06/07/2020 - 13/08/2021
+- 
+fecha :8/07/2025
+NE:7.62 m - 0.4 : 7.22m</description>
+			<LookAt>
+				<longitude>-68.06688124168529</longitude>
+				<latitude>-34.63581011386076</latitude>
+				<altitude>0</altitude>
+				<heading>0.2089952581218337</heading>
+				<tilt>18.96682421687311</tilt>
+				<range>225.2076835204279</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_blue-pushpin</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-68.06739722222221,-34.63556037435212,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>P - 8</name>
+			<visibility>0</visibility>
+			<description>Ubicacion: Fabrica Bestani, Cuadro Benegas. Curva de RN 144. Sobre calle Gomensoro, mano derecha en sentido ESTE - OESTE.
+Nº pozo - 17/1430
+asnm - 787m
+diam - 1.40m (cielo abierto)
+medida a/b - 0.45m
+N.E. -  19(-11.97m)-20 (-14.09m)-21(-13.63m)-22(-15.69m)
+fecha - 04/07/19- 05/07/21-04/07/22
+-
+FECHA 3/07/2025
+NE:13.57m</description>
+			<LookAt>
+				<longitude>-68.45165694268174</longitude>
+				<latitude>-34.6167524062806</latitude>
+				<altitude>0</altitude>
+				<heading>1.522950541006448</heading>
+				<tilt>29.99915972490128</tilt>
+				<range>230.4514955758174</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_blue-pushpin4</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-68.45179626761274,-34.61699423858931,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>P - 3</name>
+			<visibility>0</visibility>
+			<description>Ubicacion: Plaza Centenario - Villa 25 de Mayo - sobre calle Gdor. Ortega, a 50 m al NORTE de Calle Chacabuco.
+Nº pozo - s/n del DGI - S
+asnm - 851m
+diam - 1.50 (cielo abierto)
+medida a/b - 1m
+N.E. - 19 (-3.52m) / 20 (- 4.80m) / 21(- 4.56m) / 22(-568m)
+fecha - 04/07/2019 / 05/07/2021 - 01/06/2022
+-
+FECHA 27/06/2025
+NE:5.1m</description>
+			<LookAt>
+				<longitude>-68.54331007033282</longitude>
+				<latitude>-34.5836321318678</latitude>
+				<altitude>0</altitude>
+				<heading>2.0292775410886</heading>
+				<tilt>23.89450298812787</tilt>
+				<range>215.4209055509702</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_blue-pushpin4</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-68.54416301997875,-34.58383614239094,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>P - 144</name>
+			<visibility>0</visibility>
+			<description>Ubicación: Finca Schillat, a 750 m de vuelta ZOOTECNICA, continuar por camino de tierra, mano derecha en sentido OESTE - ESTE.
+
+N° Pozo: 17/1387
+Alt: 552 m 
+Diametro de Entubado: 10&quot; 
+Diametro de Salida: 8&quot;
+Cota: 1.15 m
+N.E.: 19(- 7.41 m) - 20(-7.84m) - 21(-8.88m)
+fecha: 12/08/2019 - 06/07/2020 - 13/08/2021
+-
+fecha :8/07/2025
+NE: 10.41m -1.2m = 9.21m</description>
+			<LookAt>
+				<longitude>-68.01176148730291</longitude>
+				<latitude>-34.66259016324774</latitude>
+				<altitude>0</altitude>
+				<heading>0.2878996240883884</heading>
+				<tilt>24.35538473179686</tilt>
+				<range>110.0741173301927</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_blue-pushpin</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-68.01167881803157,-34.66247844497186,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>P - 51</name>
+			<visibility>0</visibility>
+			<description>Ubicación: Estación de Servicio Stocco, RN 143 y Rn 144. Sobre el sector ESTE del edificio.
+nº pozo - 17/1938
+asnm - 717m
+diam - 0.90 a cielo abierto con salida de 2&quot;
+medida a/b - 0.65m
+N.E. - 19(-25.69m)-20 (-25.59m)-21(-22.51m)-22(-26.84m)
+fecha - 26/07/19-08/06/20-29/07/21-04/07/22
+-
+fecha 03/7/2025 
+NE: 21.95m</description>
+			<LookAt>
+				<longitude>-68.37969350682607</longitude>
+				<latitude>-34.65169230440155</latitude>
+				<altitude>0</altitude>
+				<heading>1.702434431842884</heading>
+				<tilt>27.48344145615578</tilt>
+				<range>149.1380445055542</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_blue-pushpin1</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-68.38003361516732,-34.65165175979531,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>P - 145</name>
+			<visibility>0</visibility>
+			<description>Ubicación: Finca Coop. Goudge Ltda. Por calle Valdivieso, a 500 m al SUR del ingreso a la Bodega.
+
+N° Pozo:17/1073
+Atl: 547 m 
+Diametro de Entubado: 12&quot;
+Cota: 1.70 m
+N.E. - 19(- 7.38 m) - 20(-10.40m) - 21(-8.21m)
+fecha - 12/08/2019 - 06/07/2020 - 17/08/2021
+-
+fecha :8/07/2025
+NE: 8.3m - 1.7m= 6.64m</description>
+			<LookAt>
+				<longitude>-68.0101061164272</longitude>
+				<latitude>-34.59605166323274</latitude>
+				<altitude>0</altitude>
+				<heading>0.2879343313171537</heading>
+				<tilt>18.85475589863771</tilt>
+				<range>302.127720722683</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_blue-pushpin</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-68.01047233543298,-34.5957843469702,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>P - 148</name>
+			<visibility>0</visibility>
+			<description>Ubicación: Finca Zenon Sanchez ( Jose Santillan ), ( entre calle Calise y Lara ) calle Apiolazza a 750 m al OESTE de calle Calise.
+
+N° Pozo: 17/2264
+Atl: 561 m 
+Diametro de Entubado: 12&quot; 
+Diametro de Salida  10&quot;
+Cota: 0.20 m
+N.E:  19(- 3.90m) - 20(-4.63m) - 21(-3.84m)
+FECHA - 12/08/2019 - 06/07/2020 - 17/08/2021
+-
+fecha :8/07/2025
+NE: 3.25m -0.2 m = 3.22m</description>
+			<LookAt>
+				<longitude>-68.01988571126671</longitude>
+				<latitude>-34.5727370057992</latitude>
+				<altitude>0</altitude>
+				<heading>0.294734355481715</heading>
+				<tilt>23.92525528676823</tilt>
+				<range>104.9946122149398</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_blue-pushpin10</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-68.02026276878784,-34.5727795208261,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>P - 149</name>
+			<visibility>0</visibility>
+			<description>Ubicación: Finca Maria Ines Iturralde (salon de Fiestas), calle Calise a 1 km al NORTE de calle Apiolazza, mano derecha.
+
+nº pozo - 17/0882
+asnm - 551 m
+diam - 10&quot; con salida 1&quot;
+Cota: 0.30 m
+N.E. - 19(- 3.56 m) - 20(-4.04m) -21(-4.25m)
+fecha - 12/08/2019 - 06/07/2020 - 17/08/2021
+-
+fecha :8/07/2025
+Cota: 0.4m
+NE: 3.25m -0.4m : 2.85m</description>
+			<LookAt>
+				<longitude>-68.00824399333824</longitude>
+				<latitude>-34.56676495599722</latitude>
+				<altitude>0</altitude>
+				<heading>0.2910580711041828</heading>
+				<tilt>27.70907350655721</tilt>
+				<range>234.0193629909539</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_blue-pushpin10</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-68.00831211009913,-34.56665509116959,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>P - 188</name>
+			<visibility>0</visibility>
+			<description>Ubicación: Bodega Algodon Wine Estate. Cuadro Benegas
+Esta enfrente de la Bodega en las Cabañas 
+-
+Pozo a Cielo Abierto: 0,9 m de diametro
+Fecha : 3/07/2025
+Medicion tomada: 19.10m 
+Cota:52m
+ NE: 18.58m</description>
+			<LookAt>
+				<longitude>-68.45936880596008</longitude>
+				<latitude>-34.64480371941823</latitude>
+				<altitude>0</altitude>
+				<heading>2.62150012260996</heading>
+				<tilt>14.95786121962231</tilt>
+				<range>843.1061867611216</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_blue-pushpin7</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-68.4617778094934,-34.64489187361337,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>P - 150</name>
+			<visibility>0</visibility>
+			<description>Ubicación: Finca Doctor Batochia, calle Candel al ESTE, donde termina girar al NORTE hasta el ingreso a la propiedad (500 m)
+
+N°Pozo: 17/0577
+Alt: 537 m
+Diametro de entubado:12&quot; 
+Diametro de salida: 8 &quot;
+Cota: 0.30 m
+NE: 19(- 3.33 m) - 20(obstruido) - 21(obstruido)
+fecha: 12/08/2019 - 06/07/2020 - 17/08/2021
+-
+fecha: 8/07/2025
+Cota: 1.12m
+NE: 4.22m -1.12m :9.21M</description>
+			<LookAt>
+				<longitude>-67.97409852561913</longitude>
+				<latitude>-34.56431961199193</latitude>
+				<altitude>0</altitude>
+				<heading>0.2703631043081556</heading>
+				<tilt>18.46453868428319</tilt>
+				<range>461.4756905957008</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_blue-pushpin10</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-67.97463817747681,-34.5635391879885,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>P - 151</name>
+			<visibility>0</visibility>
+			<description>Ubicación: Finca Doctor San Martin, calle Calise 550 m al NORTE de calle Candel.
+
+N° Pozo:17/1203
+Atm: 548 m
+Diametro de entubado:12&quot;
+Diametro de salida : 6&quot;
+Cota: 0.30 m
+N.E.: 19(- 4.76 m) - 20(-3.35m)- 21(func)
+fecha: 12/08/2019 - 06/07/2020 - 17/08/2021
+-
+fecha :8/07/2025
+Cota: 0m
+NE:1.98M</description>
+			<LookAt>
+				<longitude>-68.0018988382254</longitude>
+				<latitude>-34.55375317700845</latitude>
+				<altitude>0</altitude>
+				<heading>0.2861560952477505</heading>
+				<tilt>30.00057240043283</tilt>
+				<range>199.4262922762698</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_blue-pushpin10</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-68.00201583225832,-34.55399608174109,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>P - 2</name>
+			<visibility>0</visibility>
+			<description>Ubicacion:  RP 150 - Villa 25 de Mayo - STIA (Sindicato Trabajadores de la Industria y la Alimentacion)
+Nº pozo - 17/2124
+asnm - 837m
+diam - 1.30 (cielo abierto)
+medida a/b - 0.30m
+N.E. - 19 (-2.95m) / 20 (-3.21m) / 21 (-3.88) / 22(-6.4m)
+fecha - 04/07/2019 / 05/07/2021 - 01/06/2022
+-
+FECHA 27/06/2025
+NE:4.29m</description>
+			<LookAt>
+				<longitude>-68.52932853290925</longitude>
+				<latitude>-34.58174801348285</latitude>
+				<altitude>0</altitude>
+				<heading>1.566768637549077</heading>
+				<tilt>25.5330153538549</tilt>
+				<range>209.8524786266669</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_blue-pushpin4</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-68.52947487506241,-34.58157340527161,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>P - 187</name>
+			<visibility>0</visibility>
+			<description>Ubicación: Club Los Campesinos.
+Por  RP 160, a 350m al ESTE de Bodega Roca, mano derecha. - Cañada Seca.
+-
+FECHA 3/07/2025
+NE:1.91m</description>
+			<LookAt>
+				<longitude>-68.23930556257594</longitude>
+				<latitude>-34.67566756921688</latitude>
+				<altitude>0</altitude>
+				<heading>1.406628973416312</heading>
+				<tilt>25.33577771851644</tilt>
+				<range>289.5973819361484</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_blue-pushpin4</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-68.23830965540802,-34.67590991473569,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>P - 5</name>
+			<visibility>0</visibility>
+			<description>Ubicacion: Planta Potabilizadora Villa 25 de Mayo. RN 150 (200m a mano izquierda de la ruta). Sector OESTE de la Villa.
+Nº pozo - 17/1658
+asnm - 839m
+diam - 8&quot;
+medida a/b - 0m (nivel de suelo)
+N.E. - 19 (-7.30m) / 20 (-8.70m ) / 21(- 6.43m) / 22(-8.16m)
+fecha - 04/07/2019 / 05/07/2021 - 01/06/2022
+-
+FECHA 27/06/2025
+NE:7.45m</description>
+			<LookAt>
+				<longitude>-68.56073628293242</longitude>
+				<latitude>-34.58558802346094</latitude>
+				<altitude>0</altitude>
+				<heading>1.576584993731702</heading>
+				<tilt>24.03425609837171</tilt>
+				<range>132.673841814098</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_blue-pushpin4</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-68.56100840185583,-34.58560622662851,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>P - 184</name>
+			<visibility>0</visibility>
+			<description>Ubicación: Finca Fanny Perez, Rama Caida. Por Calle Cubillos, en sentido NORTE - SUR, hasta llegar a la Finca Rubio, girara a la izquierda por calle Santa Rosa, 1 km mano izquierda.
+nº pozo - S/N 
+asnm - 686 m
+diam - con salida de 8&quot;
+medida a/b - 0.45 m
+N.E. - 21(-17.54m)-22(s/medir)
+fecha - 03/08/21-05/07/22
+-
+FECHA 3/07/2025
+NE:16m</description>
+			<LookAt>
+				<longitude>-68.38187417100509</longitude>
+				<latitude>-34.71252799975082</latitude>
+				<altitude>0</altitude>
+				<heading>1.94112709638194</heading>
+				<tilt>28.46066150082952</tilt>
+				<range>119.6294024298358</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_blue-pushpin4</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-68.38179788026432,-34.71245547360306,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>P - 165</name>
+			<visibility>0</visibility>
+			<description>Ubicación: Finca Macovaz, calle Rojo Salto de las Rosas, detras de Bodega Resero (aserradero).
+nº pozo - 17/2313
+asnm - 581 m
+diam - 12&quot; con salida de 8&quot;
+medida a/b - 1.50 m 
+N.E. - 19(-3.34 m)-20(-3.83m)-21(-3.00m)-22(-3.24m)
+fecha - 22/08/2019-18/06/2020-09/08/2021-21/07/2022
+-
+FECHA 3/07/2025
+NE:3.91m</description>
+			<LookAt>
+				<longitude>-68.21999811006268</longitude>
+				<latitude>-34.72274282551031</latitude>
+				<altitude>0</altitude>
+				<heading>1.562594316620019</heading>
+				<tilt>20.83796668799129</tilt>
+				<range>227.895113943693</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_blue-pushpin3</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-68.22020032212149,-34.72273891145604,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>P - 16</name>
+			<visibility>0</visibility>
+			<description>Ubicación: Criadero RINA POLLOS. (Avicola TRESHER SRL) Calle 5 a 1.4 km al OESTE de cale Sardini. El Usillal.
+
+Nº pozo - 17/2352
+asnm - 776m
+diam - 4&quot;
+medida a/b - 0.20m
+N.E. - 19 (-11.57m) / 20 ( - 10.60m) / 21 (-11.86m) / 22(-12.74m)
+fecha ult. med. - 19/07/2021 - 19/07/2021 / 02/06/2022
+-
+fecha :2/7/2025
+Cota:0
+NE: 9.82m</description>
+			<LookAt>
+				<longitude>-68.4310028822305</longitude>
+				<latitude>-34.52275760204903</latitude>
+				<altitude>0</altitude>
+				<heading>0.001068507638988842</heading>
+				<tilt>25.53174863574665</tilt>
+				<range>153.4356706865576</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_blue-pushpin9</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-68.43124747855147,-34.52272717749264,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>P - 176</name>
+			<visibility>0</visibility>
+			<description>Ubicación: Finca Sergio Eraso, calle la Correina a 4.5 km al ESTE de RP 175, mano derecha en sentido OESTE - ESTE.
+nº pozo - 17/1134
+asnm - 636 m
+diam - con salida de 12&quot;
+medida a/b - 0.00 m
+N.E. - 20(-5.41m)-21(-5.00m)-22(-5.07m)
+fecha - 18/06/20-09/08/21-13/07/22
+-
+FECHA 3/07/2025
+NE:4.61m</description>
+			<LookAt>
+				<longitude>-68.29984008576335</longitude>
+				<latitude>-34.73941670595912</latitude>
+				<altitude>0</altitude>
+				<heading>1.804694489781064</heading>
+				<tilt>29.99993672984731</tilt>
+				<range>401.1639489726875</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_blue-pushpin5</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-68.29960747545829,-34.73928302123506,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>P - 164</name>
+			<visibility>0</visibility>
+			<description>Ubicación: Finca Espinola, por calle La Correina 700 m al ESTE de RP175, doblar a la izquierda, 2.4 km al NORTE.
+nº pozo - 17/2226
+asnm - 657 m
+diam - 12&quot; con salida de 8&quot;
+medida a/b - 2.10 m
+N.E. - 19(-5.14 m)-20(-7.00m)-21(-6.28m)-22(-.623m)
+fecha - 22/08/19-11/06/20-09/08/21-05/07/22-
+FECHA 3/07/2025
+NE:3.83m</description>
+			<LookAt>
+				<longitude>-68.33975045339923</longitude>
+				<latitude>-34.72102763157574</latitude>
+				<altitude>0</altitude>
+				<heading>1.649334150102527</heading>
+				<tilt>30.00087984725679</tilt>
+				<range>195.9135960653305</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_blue-pushpin5</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-68.34007058574922,-34.72119602050364,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>P - 186</name>
+			<visibility>0</visibility>
+			<description>Ubicación: Finca Skrugli. Calle El Salto y El Zanjon, antes de la curva, mano derecha.
+nº pozo - 17/2442
+asnm - 743 msnm
+diam - 12
+medida a/b - 0.80mm
+N.E. - 22(-5.24m)
+fecha - 02/06/2022
+-
+fecha 2/07/2025
+NE: 4.07 m</description>
+			<LookAt>
+				<longitude>-68.39368978323614</longitude>
+				<latitude>-34.53567606549292</latitude>
+				<altitude>0</altitude>
+				<heading>1.946660678638645</heading>
+				<tilt>28.59308042014089</tilt>
+				<range>315.9588349407867</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_blue-pushpin6</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-68.39314719519257,-34.53594599844608,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>P - 22</name>
+			<visibility>0</visibility>
+			<description>Ubicación: Criadero RINA POLLOS,  calle El Salto NORTE mano derecha, entre Las Virgenes y Costa de las Vias.
+
+nº pozo - 17/1834
+asnm - 759m
+diam - 4&quot;
+medida a/b - 0.60m
+N.E. - 19 (-10.40m) / 20 ( - 9.12m) / 21 (-9.45m) / 22(-10.59m)
+fecha - 20/07/2021 - 02/06/2022
+
+-
+Fecha:2/07/2025
+Cota: 0.6m
+NE: 9.05m</description>
+			<LookAt>
+				<longitude>-68.41367500723403</longitude>
+				<latitude>-34.57034174754893</latitude>
+				<altitude>0</altitude>
+				<heading>0.007716897212325825</heading>
+				<tilt>21.27021885599951</tilt>
+				<range>156.9844723159397</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_blue-pushpin9</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-68.41387743523239,-34.57019955975205,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>P - 26</name>
+			<visibility>0</visibility>
+			<description>Ubicación: Finca Morgan (Barry Wayne), calle Jensen NORTE a 250 m de Constanzo.
+
+nº pozo - 17/2283
+asnm - 744m
+diam - 12&quot;
+medida a/b - 0.50m
+N.E. - 19 (-6.65m) / 20 ( - 6.65m) / 21 (-6.28m) / 22(-7.95m)
+fecha - 20/07/2021 - 02/06/2022
+-
+Fecha-2/7/ 2025
+N.E: 6.21m</description>
+			<LookAt>
+				<longitude>-68.39265160781845</longitude>
+				<latitude>-34.55235159563292</latitude>
+				<altitude>0</altitude>
+				<heading>0.0001611188789012544</heading>
+				<tilt>20.24916121201764</tilt>
+				<range>248.8683463967043</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_blue-pushpin9</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-68.39282850348776,-34.55233523818307,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>P - 31</name>
+			<visibility>0</visibility>
+			<description>Ubicación: RINA POLLOS - Planta de faenado, calle Zamarbide a 1.4 km al NORTE de RN 143.
+
+nº pozo - 17/1833
+asnm - 730m
+diam - 3&quot; (cielo abierto 1.30m / ladrillo calzado)
+medida a/b - 1.35m
+N.E. - 19 (-12.15m) / 20 ( - 10.60m) - 21 ( - 10.87m) / 22(-11.54m)
+fecha - 20/07/2021 - 02/06/2022
+
+-
+Fecha :2/07/2025
+NE: 9.82m</description>
+			<LookAt>
+				<longitude>-68.38676120821606</longitude>
+				<latitude>-34.58361666558935</latitude>
+				<altitude>0</altitude>
+				<heading>1.239642465027263</heading>
+				<tilt>21.79114296411694</tilt>
+				<range>75.80727030058229</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_blue-pushpin9</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-68.38697011803004,-34.58361314345677,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>P - 36</name>
+			<visibility>0</visibility>
+			<description>Ubicación: Finca Straben (Olivicola), calle Rawson al fondo. ingreso a la propiedad a 350m al ESTE de calle Rawson.  Pozo NORTE.
+nº pozo - 17/2279
+asnm - 663m
+diam - 12&quot;
+medida a/b - 0.47m
+N.E. - 19 (-25.17m) / 20 (-30.35m) / 21 (-31.48m)/22(-33.42m)
+fecha - 20/07/2021 - 03/06/2022
+-
+FECHA :2/07/2025
+Cota:0,4m
+NE: 33.66m</description>
+			<LookAt>
+				<longitude>-68.29450466984228</longitude>
+				<latitude>-34.51087376721399</latitude>
+				<altitude>0</altitude>
+				<heading>1.247912030958786</heading>
+				<tilt>26.3944364496193</tilt>
+				<range>91.22370650985964</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_blue-pushpin00</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-68.29423922274769,-34.51092508480517,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>P - 175</name>
+			<visibility>0</visibility>
+			<description>Ubicación: Finca Beacon, calle Corvalan y calle del Medio, a 1.2 km al SUR de RN 143. Ingreso frente al Matadero Municipal.
+nº pozo - 17/1192
+asnm - 663 m
+diam - con salida de 12&quot;
+medida a/b - 0.20 m
+N.E. - 20(-2.90 m)-21(-3.25m)-22(-3.79m)
+fecha - 17/06/20-09/08/21-13/07/22
+-
+FECHA 3/07/2025
+NE:1.78 Con Aceite</description>
+			<LookAt>
+				<longitude>-68.25971696306311</longitude>
+				<latitude>-34.70267182228052</latitude>
+				<altitude>0</altitude>
+				<heading>2.474341142901737</heading>
+				<tilt>18.24479877972872</tilt>
+				<range>495.18138779689</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_blue-pushpin5</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-68.2607732957287,-34.70205575744947,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>P - 37</name>
+			<visibility>0</visibility>
+			<description>Ubicación: Finca Straben, calle Rawson al fondo. Ingreso a la propiedad a 350 m al ESTE  de calle Rawson, pozo pegado a la pileta de agua. Pozo SUR. el pozo nº 17/0883 ubicado dentro de la propiedad no se pudo medir.
+nº pozo - 17/2284
+asnm - 661m
+diam - 12&quot;
+medida a/b - 0.25m
+N.E. - 19 (-35.20m) / 20 (-30.85m) / 21 (-31.76m) / 22(-33.96m)
+fecha - 20/07/2021 - 03/06/2022
+
+-
+fecha: 2/07/2025
+NE: 33.35m</description>
+			<LookAt>
+				<longitude>-68.2969215373767</longitude>
+				<latitude>-34.51475550584856</latitude>
+				<altitude>0</altitude>
+				<heading>1.128217784063747</heading>
+				<tilt>18.72299543761742</tilt>
+				<range>124.7764036791314</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_blue-pushpin00</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-68.29700453071553,-34.51454654042598,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>P - 39</name>
+			<visibility>0</visibility>
+			<description>Ubicación: Finca Cerioni, calle La Represa (Lazza) y Rawson, a 50 m de esta, mano izquierda en sentido OESTE - ESTE..
+nº pozo - 17/0760
+asnm - 676m
+diam - 10&quot;
+ medida a/b - 0m (nivel de suelo)
+N.E. - 19 (-13.00m) / 20 ( -13.07m) / 21 (-13.16m) / 22(-14.34m)
+fecha - 17/07/2019 - 21/07/2021 - 03/06/2022
+
+-
+fecha 2/07/2025 
+NE: 13.52m</description>
+			<LookAt>
+				<longitude>-68.3197420042723</longitude>
+				<latitude>-34.56718928122248</latitude>
+				<altitude>0</altitude>
+				<heading>1.141144667559633</heading>
+				<tilt>27.5118456465767</tilt>
+				<range>219.8764970217866</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_blue-pushpin6</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-68.32000605603058,-34.56746369916674,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>P - 42</name>
+			<visibility>0</visibility>
+			<description>Ubicación: Aceitera Augusto Zingaretti, RN 143 100m antes de llegar a calle El Toledano.
+nº pozo - 17/0778
+asnm - 731m
+diam - 10&quot;
+medida a/b - 0.15m
+N.E. - 19 (-19.04m) / 20 ( - 14.16m) / 21 (-17.98m) / 22(-19.75m)
+fecha - 20/07/2021
+
+-
+fecha 2/07/2025 
+NE; 16.69m</description>
+			<LookAt>
+				<longitude>-68.37781012101287</longitude>
+				<latitude>-34.59951260356259</latitude>
+				<altitude>0</altitude>
+				<heading>1.936075314359563</heading>
+				<tilt>18.86845653918723</tilt>
+				<range>616.667035681464</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_blue-pushpin6</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-68.37933271518692,-34.59896358641694,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>P - 183</name>
+			<visibility>0</visibility>
+			<description>Ubicación: Finca Samper, Cuadro Benegas. por cale El Moro, hasta zanjón Los Inquilinos, por este 250m al OESTE mano izquierda.
+nº pozo - S/N 
+asnm - 728 m
+diam - con salida de 6&quot;
+medida a/b - 0.60 m
+N.E. - 21(-27.43m)-22(-29.70m)
+fecha - 29/07/21-05/07/22
+- 
+fecha 03/07/2023
+NE:  24.63m</description>
+			<LookAt>
+				<longitude>-68.40393115229271</longitude>
+				<latitude>-34.66762815292395</latitude>
+				<altitude>0</altitude>
+				<heading>1.304557716023504</heading>
+				<tilt>27.57226485378089</tilt>
+				<range>243.0908182900124</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_blue-pushpin7</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-68.40472076956604,-34.66785677194972,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>P-200</name>
+			<visibility>0</visibility>
+			<description>Ubicacion: Bodega MUMM, calle Sarmiento y Jensen, Las Paredes. Sectore piletas ecualizadoras.
+
+Medida anterior echa sobre el pozo Cegado 17/154
+N.E. - 19 (-20.86m) / 20 ( - 19.09m ) / 21 ( -19.49m)
+fecha - 21/07/2021
+
+Pozo Medido 
+Nº pozo - 17/2536
+Alt - 762m
+Diametro Salida - 6&quot; 
+Tiene Tubo Piezometrico y Caudalimetro
+Cota: 0
+NE:19.4m
+fecha: 2/07/2025</description>
+			<LookAt>
+				<longitude>-68.41842017075726</longitude>
+				<latitude>-34.59769154470944</latitude>
+				<altitude>0</altitude>
+				<heading>1.216414436739965</heading>
+				<tilt>30.00032727911542</tilt>
+				<range>72.21504491517815</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_blue-pushpin2</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-68.41853926216598,-34.59781621202509,0</coordinates>
+			</Point>
+		</Placemark>
+		<atom:link rel="app" href="https://www.google.com/earth/about/versions/#earth-pro" title="Google Earth Pro 7.3.6.10201"></atom:link>
+	</Folder>
+</Document>
+</kml>

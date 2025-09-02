@@ -1,0 +1,3906 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>Monitoreo Aguas Subterranea.kml</name>
+	<StyleMap id="msn_ltblu-pushpin41">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ltblu-pushpin200</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ltblu-pushpin80</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_red-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_red-pushpin4</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_red-pushpin</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_red-pushpin0">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_red-pushpin1</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_red-pushpin4</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_red-pushpin1">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_red-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_red-pushpin3</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_red-pushpin2">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_red-pushpin2</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_red-pushpin2</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_red-pushpin3">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_red-pushpin0</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_red-pushpin0</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_red-pushpin4">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_red-pushpin3</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_red-pushpin1</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_ltblu-pushpin80">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/red-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LabelStyle>
+			<color>ff0000aa</color>
+		</LabelStyle>
+	</Style>
+	<Style id="sh_red-pushpin">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/red-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LabelStyle>
+			<color>ff0000aa</color>
+		</LabelStyle>
+	</Style>
+	<Style id="sh_red-pushpin0">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/red-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LabelStyle>
+			<color>ff0000aa</color>
+		</LabelStyle>
+	</Style>
+	<Style id="sh_red-pushpin1">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/red-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LabelStyle>
+			<color>ff0000aa</color>
+		</LabelStyle>
+	</Style>
+	<Style id="sh_red-pushpin2">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/red-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LabelStyle>
+			<color>ff0000aa</color>
+		</LabelStyle>
+	</Style>
+	<Style id="sh_red-pushpin3">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/red-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LabelStyle>
+			<color>ff0000aa</color>
+		</LabelStyle>
+	</Style>
+	<Style id="sh_red-pushpin4">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/red-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LabelStyle>
+			<color>ff0000aa</color>
+		</LabelStyle>
+	</Style>
+	<Style id="sn_ltblu-pushpin200">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/red-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LabelStyle>
+			<color>ff0000aa</color>
+		</LabelStyle>
+	</Style>
+	<Style id="sn_red-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/red-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LabelStyle>
+			<color>ff0000aa</color>
+		</LabelStyle>
+	</Style>
+	<Style id="sn_red-pushpin0">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/red-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LabelStyle>
+			<color>ff0000aa</color>
+		</LabelStyle>
+	</Style>
+	<Style id="sn_red-pushpin1">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/red-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LabelStyle>
+			<color>ff0000aa</color>
+		</LabelStyle>
+	</Style>
+	<Style id="sn_red-pushpin2">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/red-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LabelStyle>
+			<color>ff0000aa</color>
+		</LabelStyle>
+	</Style>
+	<Style id="sn_red-pushpin3">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/red-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LabelStyle>
+			<color>ff0000aa</color>
+		</LabelStyle>
+	</Style>
+	<Style id="sn_red-pushpin4">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/red-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LabelStyle>
+			<color>ff0000aa</color>
+		</LabelStyle>
+	</Style>
+	<Folder>
+		<name>Monitoreo Aguas Subterranea</name>
+		<visibility>0</visibility>
+		<Placemark>
+			<name>P - 1</name>
+			<visibility>0</visibility>
+			<description>Ubicacion: RN 143, camino a Mendoza a 4.5 km del arco, luego ingresar a la propiedad unos 800m a mano derecha. (Colombianos).
+Nº pozo - 17/2098 (DGI - SD)
+asnm - 818m
+diam - 8&quot;
+medida a/b - 0.20m
+N.E. - 19(-88.80m)-20(s/medir)se trabo sonda 
+fecha - 04/07/2019 - 29/07/2020</description>
+			<LookAt>
+				<longitude>-68.4680280649176</longitude>
+				<latitude>-34.5232602712442</latitude>
+				<altitude>0</altitude>
+				<heading>2.091751884310636</heading>
+				<tilt>26.68692503901927</tilt>
+				<range>523.5162273351592</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ltblu-pushpin41</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-68.46944369824777,-34.52381305600014,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>P - 10</name>
+			<visibility>0</visibility>
+			<description>Ubicacion: calle 13, 50 m antes de llegar a calle La Fe, Capitan Montoya, a 450 m al SUR de RN 143. Se ingresa desde esta doblando a la izquierda donde comienza el boulevard.
+Nº pozo - 17/0766
+asnm - 798m
+diam - 10&quot;
+medida a/b - 0m (nivel de suelo)
+N.E. - 19 (-5.60m) / 20 ( - 5.04m )
+fecha - 04/07/2019
+POZO CEGADO</description>
+			<LookAt>
+				<longitude>-68.45531055481926</longitude>
+				<latitude>-34.58434187056412</latitude>
+				<altitude>0</altitude>
+				<heading>1.478530014265357</heading>
+				<tilt>9.960898975184922</tilt>
+				<range>292.9676885885298</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ltblu-pushpin41</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-68.45636165655834,-34.58457622635171,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>P - 101</name>
+			<visibility>0</visibility>
+			<description>Ubicación: Finca Guillen, calle Barroso 2.4 km al NORTE de RN 146 Alto del Algarrobal.
+nº pozo - 17/1307
+asnm - 567m
+diam - 1.40m cielo abierto
+medida a/b - 0 m 
+N.E. - 19(-2.30m)-20(s/medir) - 21(seco)
+fecha - 06/08/2019 / 07/07/2020 - 18/08/2021</description>
+			<LookAt>
+				<longitude>-68.12867479022907</longitude>
+				<latitude>-34.59650282610222</latitude>
+				<altitude>0</altitude>
+				<heading>0.05043999035217872</heading>
+				<tilt>26.12593046114566</tilt>
+				<range>162.8118313738133</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ltblu-pushpin41</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-68.12889333508279,-34.59647265807716,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>P - 102</name>
+			<visibility>0</visibility>
+			<description>Ubicación: Finca Garavaglia, lateral SUR finca LASCAR (cruzando el desagüe en la toma de agua) a 500 m al OESTE del ingreso a la finca.
+nº pozo - 17/0290
+asnm - 579m
+diam - 1.30m cielo abierto con slida de 8&quot;
+medida a/b - 0 m 
+N.E. - 19(-2.00m)-20(s/medir) - 21(obstruido)
+fecha - 06/08/2019 - 07/07/2020 - 18/08/2021</description>
+			<LookAt>
+				<longitude>-68.13767110695815</longitude>
+				<latitude>-34.59374485882083</latitude>
+				<altitude>0</altitude>
+				<heading>0.06305810243778402</heading>
+				<tilt>9.569216717602364</tilt>
+				<range>350.2178963194633</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ltblu-pushpin41</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-68.13891603802355,-34.5939758848977,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>P - 103</name>
+			<visibility>0</visibility>
+			<description>Ubicación: Finca LASCAR (Colonia Algarrobal SA), centro de la propiedad. El pozo se encuentra sobre el costado OESTE de la propiedad.
+nº pozo  - 17/0288
+asnm - 568m
+diam - 6&quot;
+medida a/b - 3.55m
+N.E. - 19(s/ medir)-20(s/medir) - 21(-11.35m)
+fecha - 06/08/2019 / 07/07/2020 - 18/08/2021</description>
+			<LookAt>
+				<longitude>-68.14358940740129</longitude>
+				<latitude>-34.59263812163158</latitude>
+				<altitude>0</altitude>
+				<heading>0.06209001445486999</heading>
+				<tilt>16.27558453795017</tilt>
+				<range>134.2725948130921</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ltblu-pushpin41</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-68.14405883024702,-34.59240482746316,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>P - 104</name>
+			<visibility>0</visibility>
+			<description>Ubicación: Finca Erica del Carmen Von Zedtwitz, por RN 146, a 2 km al ESTE de calle Barroso, luego doblar a la derecha por callejon interno unos 500 m al SUR (casa abandonada).
+nº pozo - 17/0710
+asnm - 569m
+diam - 8&quot;
+medida a/b - 1.45m
+N.E. - 19(-3.30 m) - 20(-3.56m) - 21(acceso bloqueado)
+fecha - 06/08/2019 - 06/07/2020 - 13/08/2021</description>
+			<LookAt>
+				<longitude>-68.09393777378429</longitude>
+				<latitude>-34.61014908608718</latitude>
+				<altitude>0</altitude>
+				<heading>0.02748541052126669</heading>
+				<tilt>30.00088913472689</tilt>
+				<range>280.3785256142463</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ltblu-pushpin41</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-68.09461463925477,-34.61055269312325,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>P - 106</name>
+			<visibility>0</visibility>
+			<description>Ubicación: Finca Eduardo Lopez (ex- Resero), a 140 m al NORTE de la casa principal. Sector SUR  de la propiedad.
+nº pozo - 17/0768
+asnm - 577m
+diam - 12&quot; con salida de 6&quot;
+medida a/b - 0 m 
+N.E. - 19(-9.35m)- 20(-14.83m) - 21(-19.75m)*
+fecha - 06/08/2019 - 07/07/2020 - 18/08/2021
+observaciones - *se bajo la zonda hasta los 20m, sale con aceite.</description>
+			<LookAt>
+				<longitude>-68.12571325968668</longitude>
+				<latitude>-34.5871006683537</latitude>
+				<altitude>0</altitude>
+				<heading>0.04648783166037875</heading>
+				<tilt>22.17221165583366</tilt>
+				<range>164.4823328725522</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ltblu-pushpin41</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-68.12628279841586,-34.58716254812303,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>P - 107</name>
+			<visibility>0</visibility>
+			<description>Ubicación: Finca Eduardo Lopez (ex - Resero), pegado a  la casa princiapal. sobre el lateral ESTE del tanque australiano.
+nº pozo - 17/0307
+asnm - 579m
+diam - 1.00 m cielo abierto con salida de 6&quot;
+medida a/b - 0 m
+N.E. - 19(s/ medir) - 20(-9.28m) - 21(-9.00m)
+fecha - 06/08/2019 - 07/07/2020 - 18/08/2021</description>
+			<LookAt>
+				<longitude>-68.12668994034958</longitude>
+				<latitude>-34.58819032089934</latitude>
+				<altitude>0</altitude>
+				<heading>0.04586400565637618</heading>
+				<tilt>29.73958045019655</tilt>
+				<range>137.2784133366453</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ltblu-pushpin41</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-68.12713172955065,-34.5883509735616,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>P - 108</name>
+			<visibility>0</visibility>
+			<description>Ubicación: Finca Amodeo, calle Maza y Lobo, Colonia Elena a 3 km al OESTE de RN 146, primer calle pasando la curva, mano derecha.
+nº pozo - 17/0769
+asnm - 562m
+diam - 12&quot; con salida de 10&quot;
+medida a/b - 0.10 m
+N.E. - 19(-5.10m) - 20(-5.99m) - 21(-6.49m)
+fecha - 06/08/2019 - 07/07/2020 - 18/08/2021</description>
+			<LookAt>
+				<longitude>-68.11147031484639</longitude>
+				<latitude>-34.58182496322803</latitude>
+				<altitude>0</altitude>
+				<heading>0.03730269572270652</heading>
+				<tilt>30.00121248079678</tilt>
+				<range>270.0414503707947</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ltblu-pushpin41</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-68.11175541030941,-34.58188413383106,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>P - 109</name>
+			<visibility>0</visibility>
+			<description>Ubicación: Estancia El Forestal, Colonia Elena. Se ingresa desde RN 146, por calle El Clavel, 1 km antes del Destacamento Policial, mano derecha en sentido SUR - NORTE, 3.8 km al OESTE. Callejon central de la propiedad.
+nº pozo - 17/2182
+asnm - 673m
+diam - 12&quot; con salida de 6&quot;
+medida a/b - 0 m
+N.E. - 19(s/ medir) - 20(s/medir) - 21(s/medir)
+fecha - 06/08/2019 - 07/07/2020
+observaciones - 07/07/2020 s/medir, camino cortado por reparacion de puente.</description>
+			<LookAt>
+				<longitude>-68.10539003410213</longitude>
+				<latitude>-34.55583760365582</latitude>
+				<altitude>0</altitude>
+				<heading>0.02869432902871852</heading>
+				<tilt>19.45169199173594</tilt>
+				<range>283.5889871454913</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ltblu-pushpin41</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-68.10617295331163,-34.55536767857418,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>P - 111</name>
+			<visibility>0</visibility>
+			<description>Ubicación: Finca Juan Carlos Villar, calle Barrera y Lobo (ex - Finca Kucullev), Colonia Elena. Se ingresa desde RN 146 3 km al OESTE de la curva del Destacamento Policial, final de la calle sobre lateral NORTE de la misma.
+nº pozo - 17/0688
+asnm - 574m
+diam - 10&quot; con salida de 6&quot;
+medida a/b - 3.25m
+N. E. - 19(-7.86m) - 20( s/medir) - 21(s/medir)
+fecha - 06/08/2019 - 07/07/2020 - 18/08/2021
+observaiones - pozo obstruido por piedras.</description>
+			<LookAt>
+				<longitude>-68.09833614103005</longitude>
+				<latitude>-34.55643576953654</latitude>
+				<altitude>0</altitude>
+				<heading>0.02494877615664384</heading>
+				<tilt>22.60871437754833</tilt>
+				<range>237.9133088407631</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ltblu-pushpin41</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-68.09865074669872,-34.55633320166697,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>P - 112</name>
+			<visibility>0</visibility>
+			<description>Ubicación: Finca Marcelo De Bernardi, calle Barrera, Colonia Elena. Se ingresa desde RN 146 2 km al OESTE de la curva del Destacamento Policial, sobre lateral NORTE  de la calle.
+nº pozo - 17/851
+asnm - 568m
+diam - 10&quot; con salida de 6&quot;
+medida a/b - 1.30m
+N.E. - 19(-6.56m) - 20(s/ medir) - 21(s/medir)
+fecha - 06/08/2019 - 07/07/2020 - 18/08/2021
+observaciones - pozo obstruido a los 7m aproximadamente.</description>
+			<LookAt>
+				<longitude>-68.08893058420252</longitude>
+				<latitude>-34.55962320091711</latitude>
+				<altitude>0</altitude>
+				<heading>0.02018942449770616</heading>
+				<tilt>24.53141592860454</tilt>
+				<range>235.0477653413667</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ltblu-pushpin41</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-68.08868090355966,-34.55947024656327,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>P - 114</name>
+			<visibility>0</visibility>
+			<description>Ubicación: Finca Litexco, calle Apiolaza a 1 km al NORTE de RN 146, se encuentra cercano al porton de ingreso a la propiedad. Pozo nº 5.
+nº pozo - 17/1370
+asnm - 562m
+diam - 12&quot; con salida de 10&quot;
+medida a/b - 0.40m
+N.E. - 19(s/ medir) - 20(s/medir) - 21(func)
+fecha - 06/08/2019 - 06/07/2020 - 17/08/2021</description>
+			<LookAt>
+				<longitude>-68.05307616666492</longitude>
+				<latitude>-34.56114431934557</latitude>
+				<altitude>0</altitude>
+				<heading>0.0002890433178162716</heading>
+				<tilt>25.26746408778347</tilt>
+				<range>276.5278102114995</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ltblu-pushpin41</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-68.05364552632352,-34.5614659564783,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>P - 119</name>
+			<visibility>0</visibility>
+			<description>Ubicación: Calle Juan XXIII, frente aserradero de piedra laja, lateral SUR canal Marginal izquierdo, 300m al ESTE de la salida del entubado (canoa).
+nº pozo - 17/1034
+asnm - 696m
+diam - 1.50 cielo abierto, con salida de 8&quot; (antepozo)
+medida a/b - 0 m
+N.E. - 19(s/ medir - seco) - 20 (s/medir)
+fecha - 07/08/2019 - 11/06/2020</description>
+			<LookAt>
+				<longitude>-68.35689819388584</longitude>
+				<latitude>-34.64501795915401</latitude>
+				<altitude>0</altitude>
+				<heading>0.1760052903221731</heading>
+				<tilt>29.26837150000242</tilt>
+				<range>167.5816043654073</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ltblu-pushpin41</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-68.35672264858428,-34.64515871661479,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>P - 12</name>
+			<visibility>0</visibility>
+			<description>Ubicacion: Finca Bianchi, RN 143 y Bentos. Se ingresa a la misma por RN 143. El pozo se encuentra sobre el costado NORTE de un reservorio de agua ubicado sobre Sarmiento y Bentos.
+Nº pozo - 17/1013
+asnm - 741m
+diam - 12&quot;
+medida a/b - 0.60m
+N.E. - 19 (-21.70m) / 20 ( - 21.70m) / 21 ( - 21.05m) / 22(-23.82m)
+fecha - 21/07/2021 - 03/06/2022</description>
+			<LookAt>
+				<longitude>-68.39385111700128</longitude>
+				<latitude>-34.60262298591549</latitude>
+				<altitude>0</altitude>
+				<heading>1.482607427471219</heading>
+				<tilt>27.24187918930399</tilt>
+				<range>272.555742833994</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ltblu-pushpin41</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-68.39362477991008,-34.60285118821475,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>P - 120</name>
+			<visibility>0</visibility>
+			<description>Ubicación: Finca Miguel Cianci, calle Juan XXIII, 200 m antes de Av. El libertador, lateral SUR del canal Marginal IZQUIERDO.
+nº pozo - 17/0653
+asnm - 704 m
+diam - 1.70m cielo abierto
+medida a/b - 0.50m
+N.E. - 19 (-18.52m) - 20(-20.76m)/21(- 18.08)/22(-19.76m)
+fecha - 07/08/2019 - 11/06/2020 - 21/07/2021-15/06/2022</description>
+			<LookAt>
+				<longitude>-68.34733456378387</longitude>
+				<latitude>-34.64730303833718</latitude>
+				<altitude>0</altitude>
+				<heading>0.1705682252220311</heading>
+				<tilt>29.26979457370863</tilt>
+				<range>592.8946918837206</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ltblu-pushpin41</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-68.34794807503562,-34.64779032654918,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>P - 121</name>
+			<visibility>0</visibility>
+			<description>Ubicación: Finca Roca, calle Bolivar SUR 2700, 400m al SUR de Av. Irene Curie, mano izquierda en sentido NORTE - SUR.
+nº pozo - 17/0415
+asnm - 677m
+diam - 10&quot; con salida de 6&quot;
+medida a/b - 0.20m
+N.E. - 19(-11.79m)/20(-11.20m)/22(s/medir)
+fecha - 07/08/2019 - 11/06/2020-15/06/2022</description>
+			<LookAt>
+				<longitude>-68.31481183332832</longitude>
+				<latitude>-34.64635198700166</latitude>
+				<altitude>0</altitude>
+				<heading>0.1523561750958962</heading>
+				<tilt>30.00018416781861</tilt>
+				<range>176.5752370323323</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ltblu-pushpin41</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-68.31505292650172,-34.64628115803367,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>P - 122</name>
+			<visibility>0</visibility>
+			<description>Ubicación: Finca Cervantes, Av. Alberdi, lateral NORTE frente Maderera Lopez.
+nº pozo - s/nº DGI en tramite de registración
+asnm - 675m
+diam - 4&quot; 
+medida a/b - 0.60m
+N.E. - 19( s/ medir)/20 (-10.05m)/21 (-8.65m)/22(-10.10m)
+fecha - 07/08/2019 - 17/06/2020 - 22/07/2021-15/06/2022</description>
+			<LookAt>
+				<longitude>-68.30588861015893</longitude>
+				<latitude>-34.63532631636552</latitude>
+				<altitude>0</altitude>
+				<heading>0.1439109526821296</heading>
+				<tilt>21.90745358230463</tilt>
+				<range>165.3904682313692</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ltblu-pushpin41</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-68.30615343750041,-34.6352272663592,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>P - 123</name>
+			<visibility>0</visibility>
+			<description>Ubicación: Finca Miguel Campanello, calle Tierra del Fuego y Alberdi.
+nº pozo - 17/1016
+asnm - 655m
+diam - 8&quot; con salida de 3/4 para casa
+medida a/b - 0 m 
+N.E. - 19(- 5.24m)/20(-6.00m)/21(-4.59m)/22(s/medir)
+fecha - 07/08/2019 - 11/06/2020 - 21/07/2021-15/06/2022</description>
+			<LookAt>
+				<longitude>-68.29388201401217</longitude>
+				<latitude>-34.63870837410808</latitude>
+				<altitude>0</altitude>
+				<heading>0.1394208403914742</heading>
+				<tilt>26.18697327427578</tilt>
+				<range>294.3290068966382</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ltblu-pushpin41</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-68.29439749346734,-34.63903482786938,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>P - 124</name>
+			<visibility>0</visibility>
+			<description>Ubicación: Impregnado de MADERAS, Av. Alberdi ESTE, 600 m antes de la rotonda vuelta de Zamora, lateral NORTE.
+nº pozo - s/n DGI en tramite de inscripcción
+asnm - 634 m
+diam - 2&quot;
+medida a/b - 0 m
+N.E. - 19(-2.35m)-20(-2.29m)-21(-4.43m)-22(s/medir)
+fecha - 07/08/2019 - 30/06/2020 - 10/08/2021</description>
+			<LookAt>
+				<longitude>-68.26072313147642</longitude>
+				<latitude>-34.64722520931342</latitude>
+				<altitude>0</altitude>
+				<heading>0.1211443406185373</heading>
+				<tilt>27.48962234694189</tilt>
+				<range>135.9466298702864</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ltblu-pushpin41</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-68.26105744695602,-34.64717515120093,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>P - 125</name>
+			<visibility>0</visibility>
+			<description>Ubicación: Finca Giandinotto, calle Alberdi (ESTE) al 7400, rotonda de la vuelta de Zamora, mano derecha.  Se ingresa por un callejon comunitario.
+nº pozo - 17/1860
+asnm - 625 m
+diam - 4&quot;
+medida a/b - 0.20m
+N.E. - 19(-3.56m) - 20(-3.00m) - 21(-3.21m)
+fecha - 07/08/2019 - 30/06/2020 - 10/08/2021</description>
+			<LookAt>
+				<longitude>-68.25746518584542</longitude>
+				<latitude>-34.65270347487703</latitude>
+				<altitude>0</altitude>
+				<heading>0.120161404383685</heading>
+				<tilt>30.00012105320458</tilt>
+				<range>144.2648694695202</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ltblu-pushpin41</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-68.25774852717855,-34.65261962919118,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>P - 126</name>
+			<visibility>0</visibility>
+			<description>Ubicación: Finca A. Martos, RP 165 a 700 m al NORTE  de la rotonda de la vuelta de Zamora, lateral OESTE en sentido SUR - NORTE.
+nº pozo - s/n DGI 
+asnm - 633 m
+diam - 1.00 m cielo abierto
+medida a/b - 0.60 m
+N.E. - 19(- 4.01 m) - 20(-4.03m) - 21(func)
+fecha - 07/08/2019 - 30/06/2020 - 10/08/2021</description>
+			<LookAt>
+				<longitude>-68.25255285630161</longitude>
+				<latitude>-34.64401683472303</latitude>
+				<altitude>0</altitude>
+				<heading>0.1171241981981765</heading>
+				<tilt>28.87500658767063</tilt>
+				<range>183.8677401676253</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ltblu-pushpin41</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-68.25288449909513,-34.64399649830435,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>P - 127</name>
+			<visibility>0</visibility>
+			<description>Ubicación: Campo Remonta y Veterinaria, sector SUR (dónde se encuentran las pileltas), a 60m al ESTE de calle La Intendencia.
+nº pozo - 17/1232
+asnm - 651 m
+diam - 10&quot;
+medida a/b - 0 m
+N.E. - 19(-3.10 m) - 20(-3.00m) - 21 (-2.10m)
+fecha - 07/08/2019 - 30/06/2020 - 22/07/2021</description>
+			<LookAt>
+				<longitude>-68.2721166880588</longitude>
+				<latitude>-34.64214507467282</latitude>
+				<altitude>0</altitude>
+				<heading>0.1236724901163655</heading>
+				<tilt>17.05872605860451</tilt>
+				<range>376.5455824042842</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ltblu-pushpin41</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-68.27296042704917,-34.64191113492503,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>P - 128</name>
+			<visibility>0</visibility>
+			<description>Ubicación: Parque Industrial, Municipalidad de San Rafael, sobre calle La Intendencia a 900 m al NORTE  de RN 146.
+nº  pozo  - 17/2266
+asnm - 647 m 
+diam - 12&quot;
+medida a/b - 0.20m
+N. E. - 19(-9.66m)-20(-10.00m)- 21(-8.78m)-22(-10.08m)
+fecha - 07/08/19-25/06/20-22/07/21-14/07/22</description>
+			<LookAt>
+				<longitude>-68.26653744074038</longitude>
+				<latitude>-34.62321936140314</latitude>
+				<altitude>0</altitude>
+				<heading>0.124382590177048</heading>
+				<tilt>22.68097474609452</tilt>
+				<range>118.3538976836385</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ltblu-pushpin41</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-68.26681967026509,-34.62311807839111,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>P - 129</name>
+			<visibility>0</visibility>
+			<description>Ubicación: Estancia Los Amigos, Goudge (pozo 52) a 700 m del porton de ingreso que se encuentra sobre RP 160 (curva).
+nº pozo - 17/0052
+asnm - 647 m
+diam - 10&quot; con salida de 6&quot;
+medida a/b - 0.60 m
+N.E. - 19 (-1.84 m) - 20 (-1.38m) - 21(atascado)
+fecha - 08/08/2019 - 18/06/2020 - 09/08/2021</description>
+			<LookAt>
+				<longitude>-68.19777486911454</longitude>
+				<latitude>-34.66664390985662</latitude>
+				<altitude>0</altitude>
+				<heading>0.08932945418601344</heading>
+				<tilt>27.14988428671031</tilt>
+				<range>137.2270828264129</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ltblu-pushpin41</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-68.19779267099675,-34.66658479673382,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>P - 130</name>
+			<visibility>0</visibility>
+			<description>Ubicación: Estancia Los Amigos, detras de la casa principal de la Estancia, lateral ESTE de la pileta.
+nº pozo - 17/0835
+asnm - 608 m
+diam - 12&quot; con salida de 10&quot;
+medida a/b - 0.45m
+N.E. - 19( s/ medir - en func.) - 20(s/medir, en func.) - 21(sin medir-atascado)
+fecha - 08/08/2019 - 18/06/2020 - 10/08/2021</description>
+			<LookAt>
+				<longitude>-68.19325805950841</longitude>
+				<latitude>-34.66924494084425</latitude>
+				<altitude>0</altitude>
+				<heading>0.08938650867997718</heading>
+				<tilt>29.99994008979267</tilt>
+				<range>191.3020213664178</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ltblu-pushpin41</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-68.19335903179457,-34.66934689393054,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>P - 131</name>
+			<visibility>0</visibility>
+			<description>Ubicación: Estancia Los Amigos, 600 m al NORTE el sector de corrales donde se encuentra un molino viejo. Sector pegado al Rio Diamante.
+nº pozo - 17/1379
+asnm - 594 m
+diam - 8&quot;
+medida a/b - 2.45m
+N.E. - 19 (- 2.61 m) - 20 (- 10m) habia estado en func. - 21(-1.75m)
+fecha - 08/08/2019 - 18/06/2020 - 09/08/2021</description>
+			<LookAt>
+				<longitude>-68.16877416960234</longitude>
+				<latitude>-34.66680238739532</latitude>
+				<altitude>0</altitude>
+				<heading>0.06427039001401125</heading>
+				<tilt>20.98676497357889</tilt>
+				<range>99.10705085956501</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ltblu-pushpin41</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-68.16878057850572,-34.66661886818318,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>P - 132</name>
+			<visibility>0</visibility>
+			<description>Ubicación: Estancia Los Amigos. Molino ubicado en los viejos corrales del Establecimiento, sector central de la Estancia.
+nº pozo - 17/1412
+asnm - 582 m 
+diam - 1.00 m cielo abierto - calzado con ladrillos
+medida a/b - 0 m
+N.E. - 19(-2.20 m)-20(-2.10m)-21(seco)-23(-1.89m)
+fecha - 08/08/19-18/06/20-09/08/21-18/08/23</description>
+			<LookAt>
+				<longitude>-68.17060510101624</longitude>
+				<latitude>-34.67130372600609</latitude>
+				<altitude>0</altitude>
+				<heading>0.07657337784983193</heading>
+				<tilt>29.99920556624286</tilt>
+				<range>175.373926435812</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ltblu-pushpin41</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-68.17058781136062,-34.67124238859059,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>P - 133</name>
+			<visibility>0</visibility>
+			<description>Ubicación: Estancia Los Amigos, sector SUR  de la misma. Desde el viejo molino se recorre 1.5 km hacia el ESTE por el callejón central de la Estancia, luego se gira a la derecha 500 m en dirección SUR (casa abandonada)
+nº pozo - 17/0884
+asnm - 581 m 
+diam - 12&quot; con salida de 8&quot;
+medida a/b - 1.75 m 
+N.E. - 19(- 4.25 m) - 20 (-3.56m) - 21(-3.41m)
+fecha - 08/08/2019 - 18/06/2020 - 09/08/2021</description>
+			<LookAt>
+				<longitude>-68.15524210277924</longitude>
+				<latitude>-34.67964621236516</latitude>
+				<altitude>0</altitude>
+				<heading>0.06783551903542757</heading>
+				<tilt>30.00046039942762</tilt>
+				<range>102.6599943002135</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ltblu-pushpin41</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-68.15524228203219,-34.67973950761301,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>P - 134</name>
+			<visibility>0</visibility>
+			<description>Ubicación: Finca Argenceres, Goudge a 1 km del porton de ingreso  mano izquierda, el pozo se encuentra a unos 10m del callejón de ingreso hacia el NORTE, entre olivos.
+nº pozo - 17/1024
+asnm - 585 m
+diam - 12&quot; con salida de 10&quot;
+medida a/b - 0.37 m 
+N.E. - 19 ( - 3.49 m) - 20 (func.) - 21(s/medir*) 
+fecha - 08/08/2019 - 18/06/2020 - 10/08/2021
+Observaciones - * En fecha 10/08/2021 se baja cinta, y a los 6m se detecta la presencia de aceite.</description>
+			<LookAt>
+				<longitude>-68.17762132541955</longitude>
+				<latitude>-34.70740566301573</latitude>
+				<altitude>0</altitude>
+				<heading>1.467861988950108</heading>
+				<tilt>27.54218299894116</tilt>
+				<range>231.4098529312759</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ltblu-pushpin41</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-68.17758974086259,-34.70701362198373,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>P - 135</name>
+			<visibility>0</visibility>
+			<description>Ubicación: Finca Argenceres, Goudge a 1.2 km al ESTE del porton de ingreso. Pegado a la playa de invernaderos. Encargado Mario Nieto, cel 2604221105.
+nº pozo  - 17/0823
+asnm - 589 m 
+diam - 12&quot;
+medida a/b - 0.35 m
+N.E. - 19 ( s/ medir) - 20 (func.) - 21(func.)
+fecha - 08/08/2019 - 18/06/2020 - 10/08/2021</description>
+			<LookAt>
+				<longitude>-68.17507550361488</longitude>
+				<latitude>-34.70693589732452</latitude>
+				<altitude>0</altitude>
+				<heading>1.819630578135154</heading>
+				<tilt>28.24768286207562</tilt>
+				<range>206.9866957766748</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ltblu-pushpin41</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-68.17540973489209,-34.70715059808214,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>P - 136</name>
+			<visibility>0</visibility>
+			<description>Ubicación: Finca Argenceres, Goudge. Sector SUR-ESTE de la propiedad a 6 km del porton de ingreso. El pozo se encuentra a 1.5 km al SUR de la fabrica, luego se gira a la izquierda 700m, lateral SUR del callejón.
+nº pozo - 17/1259
+asnm - 572 m 
+diam - 12&quot;
+medida a/b - 0.50 m 
+N.E. - 19 ( - 7.00 m) - 20 ( - 6.36m) - 21(s/medir*)
+fecha - 08/08/2019 - 18/06/2020 - 10/08/2021
+Obsrvaciones - *en fecha 10/08/21, se bajo la cinta y a los 8m se detecta la presencia de aceite.</description>
+			<LookAt>
+				<longitude>-68.13795120779534</longitude>
+				<latitude>-34.72648319862829</latitude>
+				<altitude>0</altitude>
+				<heading>1.798608414088945</heading>
+				<tilt>30.00289070904146</tilt>
+				<range>658.833946667711</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ltblu-pushpin41</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-68.13954452087147,-34.72755114467305,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>P - 137</name>
+			<visibility>0</visibility>
+			<description>Ubicación: Finca Argenceres, Goudge. Casa de ingreso a la propiedad, mano izquierda.
+nº pozo - 17/1273
+asnm - 590m
+diam - 12&quot;
+medida a/b - 0.45 m 
+N.E. - 19 ( -3.05 m ) - 20 ( - 3.83m) - 21(-3.24m)
+fecha - 08/08/2019 - 18/06/2020 - 10/08/2021</description>
+			<LookAt>
+				<longitude>-68.18652850743003</longitude>
+				<latitude>-34.70569189664533</latitude>
+				<altitude>0</altitude>
+				<heading>1.826269964172368</heading>
+				<tilt>30.00073011074078</tilt>
+				<range>207.4707446012811</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ltblu-pushpin41</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-68.18688942854192,-34.70612194174733,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>P - 138</name>
+			<visibility>0</visibility>
+			<description>Ubicación: Estancia Los Amigos. Goudge. RP 160 y Línea Ancha, casa Sr. Moralez.
+nº pozo - 17/0051
+asnm - 577 m
+diam - 12&quot;
+medida a/b - 0.30 m 
+N.E. - 19(-2.30 m)-20(-1.78m)-21(-1.78m)-23(-1.91m)
+fecha - 08/08/2019-18/06/2020-10/08/2021-18/08/2023</description>
+			<LookAt>
+				<longitude>-68.20842433273305</longitude>
+				<latitude>-34.67283898147688</latitude>
+				<altitude>0</altitude>
+				<heading>1.442424649402773</heading>
+				<tilt>21.82340510443356</tilt>
+				<range>355.4354452767573</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ltblu-pushpin41</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-68.20863983171522,-34.67282119036072,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>P - 139</name>
+			<visibility>0</visibility>
+			<description>Ubicación: Hijuela Nº 5 Goudge, por calle que corre paralela a la misma, 100 m al OESTE del Polideportivo Goudge, laterla NORTE de la hijuela.
+nº pozo - 17/0815
+asnm - 572 m 
+diam - 12&quot;
+medida a/b - 0.15 m 
+N.E. - 19 (- 4.73 m) - 20 (- 4.73m) - 21(-4.55m)
+fecha - 08/08/2019 - 18/06/2020 10/08/2021</description>
+			<LookAt>
+				<longitude>-68.12850332363773</longitude>
+				<latitude>-34.6756868240749</latitude>
+				<altitude>0</altitude>
+				<heading>1.457385081975941</heading>
+				<tilt>30.00093429288311</tilt>
+				<range>208.0231650580811</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ltblu-pushpin41</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-68.12895922721168,-34.67566708513252,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>P - 14</name>
+			<visibility>0</visibility>
+			<description>Ubicación: Finca La Negrita, calle Sardini NORTE a 2 km de RN 143, ( 300m al OESTE de Sardini).
+Nº pozo - 17/1129
+asnm - 783m
+diam - 12&quot;
+medida a/b - 0.67m
+N.E. s/ medir (obstruido)
+fecha - 11/07/2019</description>
+			<LookAt>
+				<longitude>-68.43949429515204</longitude>
+				<latitude>-34.56477409293046</latitude>
+				<altitude>0</altitude>
+				<heading>0.004880685225758451</heading>
+				<tilt>25.64722240383999</tilt>
+				<range>131.4976058668685</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ltblu-pushpin41</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-68.43969586310168,-34.56476286694257,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>P - 142</name>
+			<visibility>0</visibility>
+			<description>Ubicación: Finca Emilio Fernandez, RP 160 a 6.7 Km al ESTE de Goudge, a 700 m al ESTE de la Escuela, mano izquierda.
+nº pozo - 17/0217
+asnm - 563 m
+diam - 1.30 m antepozo con salida de 8&quot;
+medida a/b - 0 m
+N.E. - 19( s/ medir) - 20(-7.54m) - 21(-7.71m)
+fecha - 12/08/2019 - 06/07/2020 - 13/08/2021</description>
+			<LookAt>
+				<longitude>-68.05980350733213</longitude>
+				<latitude>-34.66305307323044</latitude>
+				<altitude>0</altitude>
+				<heading>0.3189365667491093</heading>
+				<tilt>30.00014664001708</tilt>
+				<range>193.1594956252818</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ltblu-pushpin41</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-68.06002887146853,-34.66295903017687,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>P - 143</name>
+			<visibility>0</visibility>
+			<description>Ubicación: Finca Zapata. Por RP 160 a 8.8 Km al ESTE de Goudge, mano derecha.
+nº pozo - 17/0027
+asnm - 555 m
+diam - 12&quot; con salida de 4&quot;
+medida a/b - 0 m 
+N.E. - 19(- 8.40 m) - 20(-13.35m) - 21(-13.61m)
+fecha - 12/08/2019 - 06/07/2020 - 13/08/2021</description>
+			<LookAt>
+				<longitude>-68.03726529137381</longitude>
+				<latitude>-34.66792256596199</latitude>
+				<altitude>0</altitude>
+				<heading>0.3031127973582992</heading>
+				<tilt>29.57882930276738</tilt>
+				<range>130.485889256798</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ltblu-pushpin41</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-68.03743052563944,-34.66798234575776,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>P - 146</name>
+			<visibility>0</visibility>
+			<description>Ubicación: Coop. Goudge Ltda. Porton de ingreso, mano derecha detras de la casa.
+
+nº pozo - 17/0219
+asnm - 545 m 
+diam - 10&quot; con salida de 8&quot;
+medida a/b - 1.70 m 
+N.E. - 19(- 6.82 m) - 20(-7.41m) - 21(-7.75m)
+fecha - 12/08/2019 - 06/07/2020 - 17/08/2021
+
+- 
+fecha :8/07/2025
+NO SE PUDO MEDIR</description>
+			<LookAt>
+				<longitude>-68.00833829414759</longitude>
+				<latitude>-34.59205595722427</latitude>
+				<altitude>0</altitude>
+				<heading>0.2850663195796719</heading>
+				<tilt>14.33379238442753</tilt>
+				<range>95.17968571485773</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ltblu-pushpin41</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-68.00867491871577,-34.59208546597656,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>P - 147</name>
+			<visibility>0</visibility>
+			<description>Ubicación: Finca Laura Montero, calle Valdivieso y Apiolazza, La Llave.
+nº pozo - 17/1182 c/ tubo piezométrico
+asnm - 553 m 
+diam - 10&quot;
+medida a/b - 0.60 m 
+N.E. - 19(s/ medir) - 20(s/ medir) - (aceite a 1.60m) - 21(en func)
+fecha - 12/08/2019 - 06/07/2020 - 17/08/2021</description>
+			<LookAt>
+				<longitude>-68.00148964249597</longitude>
+				<latitude>-34.57838948895784</latitude>
+				<altitude>0</altitude>
+				<heading>0.2844254584714774</heading>
+				<tilt>26.85920640106373</tilt>
+				<range>280.9980494186149</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ltblu-pushpin41</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-68.00210355198745,-34.5785299630009,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>P - 15</name>
+			<visibility>0</visibility>
+			<description>Ubicación: Finca Balbus (circuito Motocross), calle San Francisco a 800 m al OESTE de calle Sardini, mano izquierda, en sentido ESTE - OESTE.
+Nº pozo - ?
+asnm - 774m
+diam - 4&quot;
+medida a/b - 0.20m
+N.E. - 19 (-3.20m) / 20 (- 3.80m) / 22(-4.40m)
+fecha - 11/07/2019 / 02/06/2022</description>
+			<LookAt>
+				<longitude>-68.43877251188673</longitude>
+				<latitude>-34.55238378721292</latitude>
+				<altitude>0</altitude>
+				<heading>0.02624135245302645</heading>
+				<tilt>19.76801618956509</tilt>
+				<range>127.065282293824</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ltblu-pushpin41</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-68.43891317908474,-34.55216416992227,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>P - 152</name>
+			<visibility>0</visibility>
+			<description>Ubicación: Finca Barnes, calle Lara a 1 Km al SUR de RN 146, La Llave sobre el lateral izquierdo en sentido NORTE - SUR.
+nº pozo - 17/07/33
+asnm - 553 m
+diam - 10&quot; con slida de 8&quot;
+medida a/b - 1.50 m
+N.E. - 19(- 5.36 m) - 20(- s/medir) - 21(obstruido)
+fecha - 12/08/2019 - 06/07/2020 - 17/08/2021</description>
+			<LookAt>
+				<longitude>-68.03032783928327</longitude>
+				<latitude>-34.58853167286419</latitude>
+				<altitude>0</altitude>
+				<heading>0.2979902116749115</heading>
+				<tilt>29.99927084672546</tilt>
+				<range>175.8641866401431</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ltblu-pushpin41</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-68.03089550939278,-34.58876384555497,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>P - 153</name>
+			<visibility>0</visibility>
+			<description>Ubicación: Finca Honorato, calle El Vencedor 3590 Cuadro Benegas, lateral derecho en sentido NORTE - SUR. 
+nº pozo - s/nº DGI en tramite de inscripción
+asnm - 734 m
+diam . 4&quot;
+medida a/b - 0.40 m
+N.E. - 19(- 29.83 m) - 20( s/medir, en func.)
+fecha - 13/08/2019 - 08/06/2020</description>
+			<LookAt>
+				<longitude>-68.42449655609715</longitude>
+				<latitude>-34.66640893336603</latitude>
+				<altitude>0</altitude>
+				<heading>1.963948932249348</heading>
+				<tilt>29.91216978902968</tilt>
+				<range>147.1620974123557</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ltblu-pushpin41</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-68.42469043291939,-34.66657830075742,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>P - 154</name>
+			<visibility>0</visibility>
+			<description>Ubicación: Finca Mancini, calle Mercado 2200 Cuadro Benegas, 400 m al ESTE de calle El Vencedor, mano derecha en sentido OESTE - ESTE.
+nº pozo - s/nº DGI
+asnm - 738 m
+diam - 1.20 m cielo abierto
+medida a/b - 0 m
+N.E. - 19 ( s/ medir) - 20(s/medir)
+fecha - 13/08/2019 - 08/06/2020</description>
+			<LookAt>
+				<longitude>-68.41761828791977</longitude>
+				<latitude>-34.64672018409759</latitude>
+				<altitude>0</altitude>
+				<heading>1.960043600945782</heading>
+				<tilt>30.00126172847834</tilt>
+				<range>283.166475674481</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ltblu-pushpin41</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-68.41780139947656,-34.64705392109997,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>P - 155</name>
+			<visibility>0</visibility>
+			<description>Ubicación: Sidrera Martinez, calle Los Inquilinos, a 850 m al OESTE  de calle Cubillos.
+nº pozo - 17/0606
+asnm - 730 m
+diam - 10&quot; con salida de 6&quot;
+medida a/b - 0 m
+N.E. - 19(-25.40 m)-20(-25.95m)-22(-26.88m)
+fecha - 13/08/19-08/06/20-05/07/22
+
+-
+fecha 3/07/2025
+Imposible Bajar Zonda</description>
+			<LookAt>
+				<longitude>-68.38984453425944</longitude>
+				<latitude>-34.67415157454718</latitude>
+				<altitude>0</altitude>
+				<heading>1.944293154149523</heading>
+				<tilt>30.0005858608454</tilt>
+				<range>170.6937866414973</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_red-pushpin0</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-68.3896300184913,-34.67418676816782,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>P - 157</name>
+			<visibility>0</visibility>
+			<description>Ubicación: Finca Rubio, calle Cubillos mano derecha, antes de la curva. El pozo se encuentra en el sector ESTE de la propiedad.(sector de represa).
+nº pozo - 17/2255
+asnm - 689 m
+diam - 10&quot; con salida de 8&quot;
+medida a/b - 0.50 m
+N.E. - 19(- 18.50 m) - 20 (-25.30m)
+fecha - 13/08/2019 - 08/06/2020</description>
+			<LookAt>
+				<longitude>-68.39499201722182</longitude>
+				<latitude>-34.70683247028471</latitude>
+				<altitude>0</altitude>
+				<heading>1.947023840147044</heading>
+				<tilt>30.00056344165755</tilt>
+				<range>238.75680585559</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ltblu-pushpin41</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-68.39559223083774,-34.70698066163617,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>P - 158</name>
+			<visibility>0</visibility>
+			<description>Ubicación: Finca Strologo, calle Cubillos y RP 173 a 650 m al SUR de la rotonda de ingreso a Valle Grande.
+nº pozo - 17/0526
+asnm - 675 m
+diam - 12&quot; con salida de 2&quot;
+medida a/b - 0 m
+N.E. - ( - 53.86 m)
+fecha - 13/08/2019</description>
+			<LookAt>
+				<longitude>-68.40362571206595</longitude>
+				<latitude>-34.74797694589303</latitude>
+				<altitude>0</altitude>
+				<heading>1.951965879204868</heading>
+				<tilt>30.00072169338537</tilt>
+				<range>160.8318758092402</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ltblu-pushpin41</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-68.403501438584,-34.74809097042721,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>P - 159</name>
+			<visibility>0</visibility>
+			<description>Ubicación: Secadero Nelson Senarega, calle Ejercito de los Andes y Quiroga, Rama Caida.
+nº pozo - 17/1885
+asnm - 668 m
+diam - 8&quot; con salida de 3&quot;
+medida a/b - 0.50 m
+N.E. - 19(- 8.84 m)
+fecha - 13/08/2019</description>
+			<LookAt>
+				<longitude>-68.36367321180771</longitude>
+				<latitude>-34.6860861972086</latitude>
+				<altitude>0</altitude>
+				<heading>1.558852385001</heading>
+				<tilt>28.75529671540422</tilt>
+				<range>210.3508070406483</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ltblu-pushpin41</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-68.36443148183416,-34.68612164278055,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>P - 161</name>
+			<visibility>0</visibility>
+			<description>Ubicación: Finca  Vitaloni, calle La Bodega Rama Caida a 700 m al OESTE de calle Ejercito de los Andes.
+nº pozo - s/ nº DGI
+asnm - 667 m
+diam - 5&quot; con salida de 2&quot;
+medida a/b - 0.30m
+N.E. - 19(s/ medir)-20 (-21.70m)-21(-20.80m)-22(obst)
+fecha - 13/08/19-18/06/20-09/08/21-05/07/22</description>
+			<LookAt>
+				<longitude>-68.38371667271525</longitude>
+				<latitude>-34.73472517663261</latitude>
+				<altitude>0</altitude>
+				<heading>1.503591180367039</heading>
+				<tilt>20.05099610950049</tilt>
+				<range>794.5040087450161</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ltblu-pushpin41</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-68.38690261245313,-34.73404298537307,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>P - 162</name>
+			<visibility>0</visibility>
+			<description>Ubicación: Finca Lorenzo Spadone (ex - Resero), RP 173 (calle Ejercito de los Andes), 500 m antes de la curva a Valle Grande, mano izquierda.
+nº pozo - 17/0477
+asnm - 654 m
+diam - 12&quot; con salida de 8&quot;
+media a/b - 2.31 m
+N.E. - 19(-13.99 m)-20(-13.05m)-21(-14.00m)-22(s/medir)
+fecha - 22/08/19-11/06/20-09/08/21-05/07/22</description>
+			<LookAt>
+				<longitude>-68.38080973036752</longitude>
+				<latitude>-34.74061402622645</latitude>
+				<altitude>0</altitude>
+				<heading>1.932399863758371</heading>
+				<tilt>27.41088846058766</tilt>
+				<range>114.422159425569</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ltblu-pushpin41</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-68.38081996366498,-34.74061944444445,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>P - 163</name>
+			<visibility>0</visibility>
+			<description>Ubicación: Finca Espinola RP 175, 200 m antes de calle La Correina, mano izquierda.
+nº pozo - 17/2025
+asnm - 640 m
+diam -10&quot; con slida de 8&quot;
+medida a/b - 0.45 m
+N.E. - 19(-7.17 m)-20(-7.35m)-21(-7.93m)-22(-7.70m)
+fecha - 22/08/19-11/06/20-09/08/21-05/07/22
+-
+FECHA 3/07/2025
+NO SE PUDO MEDIR NO BAJABA LA ZONDA</description>
+			<LookAt>
+				<longitude>-68.34672663275539</longitude>
+				<latitude>-34.74127823865512</latitude>
+				<altitude>0</altitude>
+				<heading>1.651725378540058</heading>
+				<tilt>29.02034838431882</tilt>
+				<range>125.3281897366955</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_red-pushpin4</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-68.34685613198606,-34.74124079542627,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>P - 166</name>
+			<visibility>0</visibility>
+			<description>Ubicación: Boedga Resero, Salto de las Rosas, calle Illia a 800 m al NOR-ESTE  de RN 143
+nº pozo - 17/0765
+asnm - 608 m
+diam - 8&quot; con salida de 6&quot;
+medida a/b - 0.05m 
+N.E. - 19(-3.63 m)-20(-4.70m)-21(-3.53m)-22(-3.98m)
+fecha - 22/08/19-18/06/20-09/08/21-13/07/22
+-
+FECHA 3/07/2025
+NO SE PUDO MEDIR POZO TAPADO</description>
+			<LookAt>
+				<longitude>-68.22394931682311</longitude>
+				<latitude>-34.7253946668006</latitude>
+				<altitude>0</altitude>
+				<heading>1.579242764888297</heading>
+				<tilt>26.55213991563876</tilt>
+				<range>176.4778286702002</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_red-pushpin</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-68.22416083767943,-34.72547179669002,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>P - 167</name>
+			<visibility>0</visibility>
+			<description>Ubicación: Fabrica La Española, calle Tomas Abete y RN 143. El pozo se encuentra en el interior de la Fabrica.
+nº pozo - 17/0725
+asnm - 608 m
+diam - 8&quot;
+medida a/b - 0 m 
+N.E. - 19(-4.25m)-20(-3.58m)-22(-3.72m)
+fecha - 22/08/2019 - 18/06/2020-21/07/2022
+-
+FECHA 3/07/2025
+En USO IR OTRO DIA</description>
+			<LookAt>
+				<longitude>-68.2355856526052</longitude>
+				<latitude>-34.70225081189584</latitude>
+				<altitude>0</altitude>
+				<heading>1.553945808143068</heading>
+				<tilt>17.4978980479841</tilt>
+				<range>214.275994843299</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_red-pushpin3</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-68.23577036598145,-34.70220704794461,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>P - 169</name>
+			<visibility>0</visibility>
+			<description>Ubicación: Bodega Roca, RP 165 y RP 160 (La Pichana), Cañada Seca. El pozo se encuentraen la casa del encargado de la bodega, se ingresa por calle La Pichana.
+nº pozo - s/nº DGI
+asnm - 617 m
+diam - 8&quot; con salida de 4&quot;
+medida a/b - 0.30 m
+N.E. - 19 ( - 1.80 m) - 20 ( - 2.28m) - 21(-2.23m)
+fecha - 22/08/2019 - 18/06/2020 - 11/08/2021</description>
+			<LookAt>
+				<longitude>-68.24314443983279</longitude>
+				<latitude>-34.67636233877452</latitude>
+				<altitude>0</altitude>
+				<heading>1.389849281301697</heading>
+				<tilt>23.76481047546371</tilt>
+				<range>117.0005994013369</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ltblu-pushpin41</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-68.2433435682061,-34.67636879099019,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>P - 17</name>
+			<visibility>0</visibility>
+			<description>Ubicación: Finca Panelli ( RIPARI SA), calle Las Mercedes a 700 m al ESTE de calle Sardini, lateral NORTE de esta.
+Nº pozo - 17/2256
+asnm - 750m
+diam - 12&quot;
+medida a/b - 0.43m
+N.E. - 19 ( - 9.52m) / 20 (- 9.39m) / 21(-9.65m) / 22(-10.83m)
+fecha - 19/07/2021 / 02/06/2022</description>
+			<LookAt>
+				<longitude>-68.4047345544173</longitude>
+				<latitude>-34.51871216129672</latitude>
+				<altitude>0</altitude>
+				<heading>0.02584000549856668</heading>
+				<tilt>16.35153662499004</tilt>
+				<range>99.05439497538686</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ltblu-pushpin41</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-68.40479946426986,-34.51848565726546,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>P - 170</name>
+			<visibility>0</visibility>
+			<description>Ubicacion: Finca Pablo Vitelii, loteo Las Lomas calle Gomensoro. a 300m al O de la curva dónde se encuentra la casa de Gomensoro, luego por callejon interno 700m al S.
+nº pozo - 17/2403
+asnm - 812 m
+diam - con salida de 2&quot;
+medida a/b - 0.30 m
+N.E. - 20(-10.90 m)-21(-8.02m)-22(-11.50m)
+fecha - 27/05/20-05/07/21-04/07/22</description>
+			<LookAt>
+				<longitude>-68.47586125166342</longitude>
+				<latitude>-34.61586198775864</latitude>
+				<altitude>0</altitude>
+				<heading>12.33164517445963</heading>
+				<tilt>19.30739305456499</tilt>
+				<range>534.6106014975815</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ltblu-pushpin41</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-68.47655683206214,-34.61524575418644,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>P - 171</name>
+			<visibility>0</visibility>
+			<description>Ubicacion: Finca Gutierrez, Cuadro Benegas. La propiedad se encuentra sobre RN 144, 500m al SUR del paso a nivel, mano derecha, en sentido NORTE-SUR.
+Nº pozo - 17/1058
+asnm - 811 m
+diam - 8&quot;
+medida a/b - 0.65m
+N.E. -  20(-15.05m)-21(-12.80m)-22(-16.20m)
+fecha - 08/06/20-29/07/21-04/07/22</description>
+			<LookAt>
+				<longitude>-68.47398001345356</longitude>
+				<latitude>-34.63132748764189</latitude>
+				<altitude>0</altitude>
+				<heading>1.366587191327654</heading>
+				<tilt>22.32469719025455</tilt>
+				<range>244.1994028293963</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ltblu-pushpin41</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-68.4748537344001,-34.631481148147,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>P - 172</name>
+			<visibility>0</visibility>
+			<description>Ubicacion: Finca Mateo, Los Filtros y El Toledano.
+nº pozo - 17/1352
+asnm - 746 m
+diam - con salida de 2&quot;
+medida a/b - 0.30 m
+N.E. - ( - 38.50 m) / 21 ( -s/medir - tapado)
+fecha - 21/07/2021</description>
+			<LookAt>
+				<longitude>-68.39320440847845</longitude>
+				<latitude>-34.62654014432161</latitude>
+				<altitude>0</altitude>
+				<heading>2.532933626747691</heading>
+				<tilt>18.99455217572837</tilt>
+				<range>535.684841525761</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ltblu-pushpin41</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-68.39316358496596,-34.62574699392248,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>P - 173</name>
+			<visibility>0</visibility>
+			<description>Ubicación: Finca Mairal, calle La Vilina a 2.3 Km al  SUR de RN 143, mano izquierda en sirección NORTE-SUR.
+Nº pozo - 17/1128
+asnm - 675 m
+diam - 8&quot;
+medida a/b - 0.90 m
+N.E. -  20(-5,26 m)-21(func)-22(-6.60m)
+fecha -11/06/20-09/08/21-05/07/22</description>
+			<LookAt>
+				<longitude>-68.3379915606244</longitude>
+				<latitude>-34.69498826500428</latitude>
+				<altitude>0</altitude>
+				<heading>1.948222535712123</heading>
+				<tilt>18.43154572499836</tilt>
+				<range>850.5022719517724</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ltblu-pushpin41</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-68.33855046762753,-34.69290327900919,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>P - 174</name>
+			<visibility>0</visibility>
+			<description>Ubicacion: Finca calle Los Dos Alamos y RN 143, Consorcio Arrae, 100m al SUR de la hijuela Los Claveles.
+nº pozo - 17/1229
+asnm - 663 m
+diam - con salida de 12&quot;
+medida a/b - 0.90 m
+N.E. - 20(- 2.90 m)
+fecha - 17/06/2020</description>
+			<LookAt>
+				<longitude>-68.30467095202941</longitude>
+				<latitude>-34.67811470570319</latitude>
+				<altitude>0</altitude>
+				<heading>2.482893827413605</heading>
+				<tilt>29.48755357632077</tilt>
+				<range>503.6570532325736</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ltblu-pushpin41</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-68.30333371381859,-34.6775840874611,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>P - 177</name>
+			<visibility>0</visibility>
+			<description>Ubicación: Pasando el Zanjón La Nora, a mano izquierda hasta calle Sanetti. del puente, 100m al OESTE, sobre el lateral SUR  del canal.
+nº pozo - 17/1452
+asnm - 616 m
+diam - con salida de 12&quot;
+medida a/b - 0.90 m
+N.E. - 20(-5.85m) - 21(-5.30m)/22(-6.12m)
+fecha - 26/06/2020 - 23/07/2021-01/07/2022</description>
+			<LookAt>
+				<longitude>-68.222128802949</longitude>
+				<latitude>-34.53540654027161</latitude>
+				<altitude>0</altitude>
+				<heading>1.845087618255817</heading>
+				<tilt>18.98913785345033</tilt>
+				<range>307.493794580637</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ltblu-pushpin41</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-68.22249991083632,-34.53474624634522,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>P - 178</name>
+			<visibility>0</visibility>
+			<description>Ubicación: Finca Basavilbasso, calle El Palomar 800m al OESTE  de calle Salas, mano derecha en sentido ESTE-OESTE.
+nº pozo - 17/1362
+asnm - 651 m
+diam - con salida de 12&quot;
+medida a/b - 1.30 m
+N.E. - 20(-21.03m) - 21(s/medir)/22(s/medir)
+fecha - 26/06/2020 - 19/08/2021-01/07/2022</description>
+			<LookAt>
+				<longitude>-68.27058640415262</longitude>
+				<latitude>-34.56999016347548</latitude>
+				<altitude>0</altitude>
+				<heading>1.871586457403901</heading>
+				<tilt>17.08262374472023</tilt>
+				<range>482.8746348737492</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ltblu-pushpin41</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-68.270765291082,-34.56901121282473,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>P - 179</name>
+			<visibility>0</visibility>
+			<description>Ubicación: Finca Bullaude, Maria. Suceción. RN 143, 370m al ESTE de calle La Vilina, mano derecha en sentido OESTE-ESTE.
+nº pozo - 17/945
+asnm - 680 m
+diam - con salida de 8&quot;
+medida a/b - 0.30 m
+N.E. - 20(-7.03m) - 21(-7.50m)
+fecha - 29/07/2020 - 09/08/2021</description>
+			<LookAt>
+				<longitude>-68.32981133248438</longitude>
+				<latitude>-34.67396327029173</latitude>
+				<altitude>0</altitude>
+				<heading>1.997758387037835</heading>
+				<tilt>23.96814565845104</tilt>
+				<range>261.0904113906365</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ltblu-pushpin41</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-68.33033218077965,-34.67420773769744,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>P - 18</name>
+			<visibility>0</visibility>
+			<description>Ubicación: Finca Panelli, (RIPARI SA), sobre el sector NORTE de la propiedad (continuar por Sardini 1.2 km al NORTE de la esquina de La Merced), luego a  400 m al ESTE  de calle Sardini ( callejon interno de la finca).
+Nº pozo - 17/0156
+asnm - 759m
+diam - 12&quot;
+medida a/b - 0m (nivel de suelo)
+N.E. - 19 (-19.37m) / 20 ( - 19.40m) / 21(s/m obstruido) / 22(s/medir)
+fecha - 19/07/2021 / 02/06/2022</description>
+			<LookAt>
+				<longitude>-68.40274158185616</longitude>
+				<latitude>-34.50776156309834</latitude>
+				<altitude>0</altitude>
+				<heading>-0.0143024036611474</heading>
+				<tilt>25.38496128059871</tilt>
+				<range>117.2338815507366</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ltblu-pushpin41</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-68.40289245725273,-34.50771083713686,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>P - 180</name>
+			<visibility>0</visibility>
+			<description>Ubicación: Finca Garcia Maria Eugenia (ex Perdiguez). Sobre calle Artero, a 1.4 km al SUR de RP 177 paraje Los Claveles.
+nº pozo - 17/773
+asnm - 645 m
+diam - con salida de 6&quot;
+medida a/b - 0.00 m
+N.E. - 20(-1.53m)-21(-1.81m)-22(-2.04m)
+fecha - 29/07/20-09/08/21-13/07/22</description>
+			<LookAt>
+				<longitude>-68.30329267932056</longitude>
+				<latitude>-34.72237460112569</latitude>
+				<altitude>0</altitude>
+				<heading>1.732511714392054</heading>
+				<tilt>8.699185702464357</tilt>
+				<range>1239.775775913761</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ltblu-pushpin41</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-68.30650182184381,-34.72419339529342,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>P - 181</name>
+			<visibility>0</visibility>
+			<description>Ubicación: Finca Luis Angel Farina, RP 177, Los Claveles. El pozo se encuentra sobre el costado ESTE del predio de la Capilla que se encuentra frente a la escuela.
+nº pozo - 17/642
+asnm - 645 m
+diam - con salida de 6&quot;
+medida a/b - 1.30 m
+N.E. - 21(s/medir)-21(-2.30m)-22(-3.01m)
+fecha - 29/07/20-09/08/21-13/07/22
+-
+FECHA 3/07/2025
+NO SE PUEDE MEDIR BOCA TAPADA CON TAPA SOLDADA</description>
+			<LookAt>
+				<longitude>-68.28832998017278</longitude>
+				<latitude>-34.71136579417473</latitude>
+				<altitude>0</altitude>
+				<heading>1.723990969707902</heading>
+				<tilt>8.699186865664107</tilt>
+				<range>1240.631913978679</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_red-pushpin</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-68.29335245755145,-34.7123247829569,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>P - 182</name>
+			<visibility>0</visibility>
+			<description>Ubicación: Campo Di Fabio - La Nora. Pasando el Zanjón La Nora, mano izquierda 2.7 km al NORTE. Despues de crusar el zanjón, girar a la izquierda 850  m, se llega a una tranquera blanca, de esta 700m al NORTE.
+nº pozo - S/N 
+asnm - 618 m
+diam - con salida de 6&quot;
+medida a/b - 0 m
+N.E. - 21(-14.38m)/22(15.64m)
+fecha - 23/07/21-01/07/22</description>
+			<LookAt>
+				<longitude>-68.21488785465777</longitude>
+				<latitude>-34.50237518920828</latitude>
+				<altitude>0</altitude>
+				<heading>1.826258440423615</heading>
+				<tilt>29.99990638905794</tilt>
+				<range>193.3206165173822</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ltblu-pushpin41</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-68.21499141953819,-34.50268579321158,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>P - 185</name>
+			<visibility>0</visibility>
+			<description>Ubicacion: Finca Roberto Casado, calle Esmeralda y Mercado - Cuadro Benegas.
+nº pozo - 17 / 2428 
+asnm - 738 m
+diam - con salida de 10&quot;
+medida a/b - 0.30 m
+N.E. - 21(-31.01m)-22(s/medir)
+fecha - 03/08/21-04/07/22</description>
+			<LookAt>
+				<longitude>-68.40263967823881</longitude>
+				<latitude>-34.65369171214463</latitude>
+				<altitude>0</altitude>
+				<heading>1.948078840931041</heading>
+				<tilt>24.56113606098352</tilt>
+				<range>298.7297487388397</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ltblu-pushpin41</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-68.40287836255547,-34.65375755763551,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>P - 189</name>
+			<visibility>0</visibility>
+			<description>Ubicación: Las Aguaditas. Finca Urruspuru Ines
+Nº pozo. 17/1785
+diam - 12&quot;
+msnm - 567m</description>
+			<LookAt>
+				<longitude>-68.06296065974277</longitude>
+				<latitude>-34.72236842650342</latitude>
+				<altitude>0</altitude>
+				<heading>-0.1997623562681944</heading>
+				<tilt>22.83945971697421</tilt>
+				<range>278.4435508827797</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ltblu-pushpin41</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-68.06351999137276,-34.72228423359122,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>P - 19</name>
+			<visibility>0</visibility>
+			<description>Ubicación: Finca Reyes, calle Central (El Usillal), a 500m al NORTE de calle Nº 5 (El Zanjon), mano derecha, en sentido SUR - NORTE.
+nº pozo - 17/ s/nº DGI
+asnm - 726m
+diam - cielo abierto (1m)
+medida a/b - 0.40m
+N.E. - 19 (-16.90m) / 20 ( - 15.78m) / 21(-16.10m) / 22(-17.13m)
+fecha - 19/07/2021 - 02/06/2022</description>
+			<LookAt>
+				<longitude>-68.36963022237816</longitude>
+				<latitude>-34.53815850843677</latitude>
+				<altitude>0</altitude>
+				<heading>-0.03695897063257206</heading>
+				<tilt>26.18637304443569</tilt>
+				<range>118.7661453872717</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ltblu-pushpin41</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-68.36961884377718,-34.53815702687916,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>P - 20</name>
+			<visibility>0</visibility>
+			<description>Ubicación: Finca Serra, calle Jensen y Las Virgenes ( a 500m al OESTE de Jensen) ingreso frente al Autodromo ASA.
+nº pozo - 17/1050
+asnm - 754m
+diam - 10&quot;
+medida a/b - 0.45m
+N.E. - 19 (-12.88m) / 20 ( - 11.75m) / 21 (-11.25m) / 22(--13.77m)
+fecha - 20/07/2021 - 02/06/2022</description>
+			<LookAt>
+				<longitude>-68.41010087935601</longitude>
+				<latitude>-34.57734462639779</latitude>
+				<altitude>0</altitude>
+				<heading>0.04360905494895161</heading>
+				<tilt>14.82816208855284</tilt>
+				<range>365.5589745609505</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ltblu-pushpin41</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-68.41145504060825,-34.57698946244651,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>P - 21</name>
+			<visibility>0</visibility>
+			<description>Ubicación: Finca Sanchez, calle Jensen a 100 m al NORTE de calle Costa de las vias, mano derecha en sentido SUR - NORTE.
+nº pozo - 17/01461
+asnm - 747m
+diam - 12&quot;
+medida a/b - 0m (nivel de suelo)
+N.E. - 19 (-6.74m) / 21 ( - s/medir) / 22(s/medir)
+fecha - 21/07/2021 - 02/06/2022</description>
+			<LookAt>
+				<longitude>-68.40192670076719</longitude>
+				<latitude>-34.57078415524678</latitude>
+				<altitude>0</altitude>
+				<heading>-0.01566442983661072</heading>
+				<tilt>25.81204580452508</tilt>
+				<range>290.0910861188196</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ltblu-pushpin41</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-68.40189633809842,-34.57070004525634,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>P - 23</name>
+			<visibility>0</visibility>
+			<description>Ubicación: Finca Cuyum Andino, calle Carmona y Constanzo.
+nº pozo - 17/1964
+asnm - 763m
+diam - 12&quot;
+medida a/b - 0.40m
+N.E. - 19 (-5.80m) / 20 ( - 4.53m) / 21 (- 4.01m) / 22(5.78m)
+fecha - 20/07/2021 - 02/06/2022</description>
+			<LookAt>
+				<longitude>-68.41861612247742</longitude>
+				<latitude>-34.55569000199336</latitude>
+				<altitude>0</altitude>
+				<heading>-0.007935449365847167</heading>
+				<tilt>26.6767302145411</tilt>
+				<range>109.6241450741308</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ltblu-pushpin41</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-68.4188877530481,-34.55571723456262,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>P - 24</name>
+			<visibility>0</visibility>
+			<description>Ubicación: Finca Ricardo Cruz (CASADO), sobre  calle Nº 5, a 800 m al OESTE de calle El Salto (curva).
+nº pozo - 17/0144
+asnm - 751m
+diam - 6&quot;
+medida a/b - 0.28m
+N.E. - (-3.72m) / 20 ( obstruido s/medir)
+fecha - 15/07/2019</description>
+			<LookAt>
+				<longitude>-68.40647560686274</longitude>
+				<latitude>-34.53071276742406</latitude>
+				<altitude>0</altitude>
+				<heading>-0.01823060910908451</heading>
+				<tilt>28.1520360016167</tilt>
+				<range>202.9724585283134</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ltblu-pushpin41</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-68.40645004739629,-34.53078428999294,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>P - 25</name>
+			<visibility>0</visibility>
+			<description>Ubicación: Finca Kowayashi (SOLUCIONES AGRICOLAS SA), calle El Salto y Constanzo. El Usillal.
+nº pozo - 17/1270
+asnm - 746m
+diam - 10&quot;
+medida a/b - 0.60m
+N.E. - 19 (- 4.70m) / 20 ( - 6.80m) / 21 ( - 4.00m) / 22(-7m)
+fecha - 20/07/2021 - 02/06/2022</description>
+			<LookAt>
+				<longitude>-68.40371521953777</longitude>
+				<latitude>-34.5505161500674</latitude>
+				<altitude>0</altitude>
+				<heading>0.002449625651792549</heading>
+				<tilt>21.40975357831969</tilt>
+				<range>244.7645457432182</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ltblu-pushpin41</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-68.40394354536841,-34.55065831956573,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>P - 27</name>
+			<visibility>0</visibility>
+			<description>Ubicación: Finca Raul Bonino, calle Bertani NORTE, a 450 m al OESTE de esta.
+nº pozo - 17/2211
+asnm - 736m
+diam - 10&quot;
+medida a/b - 0.60m
+N.E. 19 (-8.35m) / 20 ( - 7.96m) / 21 ( - 8.25m) / 22(-9.09m)
+fecha - 20/07/2021 - 02/06/2022</description>
+			<LookAt>
+				<longitude>-68.38419736758814</longitude>
+				<latitude>-34.54744930652853</latitude>
+				<altitude>0</altitude>
+				<heading>-0.03341198297618327</heading>
+				<tilt>28.89459344130784</tilt>
+				<range>101.4593192542496</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ltblu-pushpin41</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-68.38426933033999,-34.54747162343558,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>P - 27</name>
+			<visibility>0</visibility>
+			<description>Ubicación: Finca Raul Bonino, calle Bertani NORTE, a 450 m al OESTE de esta.
+nº pozo - 17/2211
+asnm - 736m
+diam - 10&quot;
+medida a/b - 0.60m
+N.E. 19 (-8.35m) / 20 ( - 7.96m) / 21 ( - 8.25m) / 22(-9.09m)
+fecha - 20/07/2021 - 02/06/2022</description>
+			<LookAt>
+				<longitude>-68.38419736758814</longitude>
+				<latitude>-34.54744930652853</latitude>
+				<altitude>0</altitude>
+				<heading>-0.03341198297618327</heading>
+				<tilt>28.89459344130784</tilt>
+				<range>101.4593192542496</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ltblu-pushpin41</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-68.38426933033999,-34.54747162343558,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>P - 28</name>
+			<visibility>0</visibility>
+			<description>Ubicación: Finca Naturagro Inversiones (CUYANA VENTURES SA), calle Esperanza y 45, El Usillal.
+nº pozo - 17/643
+asnm - 710m
+diam - 10&quot;
+medidas a/b - 1.30m
+N.E. - 19 (-56.34m) / 20 ( - 56.88m) / 21 ( - 49.04m) / 22(desmantelado)
+fecha - 20/07/2021 / 02/06/2022</description>
+			<LookAt>
+				<longitude>-68.35448264693214</longitude>
+				<latitude>-34.52244508405413</latitude>
+				<altitude>0</altitude>
+				<heading>-0.04425706596847213</heading>
+				<tilt>26.25182591771964</tilt>
+				<range>190.3223885963206</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ltblu-pushpin41</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-68.35430792386781,-34.52240265141384,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>P - 29</name>
+			<visibility>0</visibility>
+			<description>Ubicación: Finca Titarelli, calle Sepulveda NORTE, a 250m al OESTE de esta, ( la calle Sepulveda, arranca de La Merced, al NORTE, se encuentra a 2 km al OESTE de La Central). El Usillal.
+nº pozo - 17/1028
+asnm - 725m
+diam - 10&quot; ante pozo calzado c/ cemento
+medida a/b - 0.16m
+N.E. - 19 (-20.92m) / 20 ( - 20.72m) / 21(-21.19m) / 22(-22.49m)
+fecha - 19/07/2021 / 02/06/2022</description>
+			<LookAt>
+				<longitude>-68.38483151923373</longitude>
+				<latitude>-34.51599878816349</latitude>
+				<altitude>0</altitude>
+				<heading>-0.01447765057333823</heading>
+				<tilt>22.61922227775086</tilt>
+				<range>205.3858497910586</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ltblu-pushpin41</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-68.38516552692815,-34.51574395228315,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>P - 30</name>
+			<visibility>0</visibility>
+			<description>Ubicación: Bodega Suter (Peñaflor), RN 143 OESTE. El Toledano.
+nº pozo - 17/1027
+asnm - 718m
+diam - 10&quot;
+medida a/b - 0.40m
+N. E. - 19(-17.16m)-20(-16.72m)- 22(s/medir)
+fecha - 16/07/2019 - 03/06/2022</description>
+			<LookAt>
+				<longitude>-68.36449619180388</longitude>
+				<latitude>-34.60289140284093</latitude>
+				<altitude>0</altitude>
+				<heading>1.326551248294223</heading>
+				<tilt>29.9994767515689</tilt>
+				<range>128.6689650964199</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ltblu-pushpin41</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-68.36457005425891,-34.60295608531607,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>P - 32</name>
+			<visibility>0</visibility>
+			<description>Ubicación: Finca Coromina Julian, calle El Toledano y Constanzo, (ingreso por esquina calle Constanzo).
+nº pozo - 17/949
+asnm - 704m
+diam - 12&quot;
+medida a/b - 0m (nivel de suelo)
+N.E. - 19 (-2.71m) / 20 (- 3.22m) / 21 (-3m) / 22(-4.64m)
+fecha - 19/07/2021 - 03/06/2022</description>
+			<LookAt>
+				<longitude>-68.36357665255301</longitude>
+				<latitude>-34.56692947715286</latitude>
+				<altitude>0</altitude>
+				<heading>1.274145295500397</heading>
+				<tilt>25.27863415151704</tilt>
+				<range>126.7735865452614</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ltblu-pushpin41</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-68.36352110190862,-34.5669327228425,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>P - 33</name>
+			<visibility>0</visibility>
+			<description>Ubicación. Finca Strologo, calle Constanzo, a 100m al OESTE de calle El Chañaral, mano derecha en sentido ESTE - OESTE.
+nº pozo - 17/0043
+asnm - 700m
+diam - cielo abierto, 1.50m - ladrillo calzado
+medida a/b - 0.60m
+N.E. - 19 ( - 8.12m) / 20 ( - 8.00m) / 22(-9.32m)
+fecha - 16/07/2019 - 03/06/2022</description>
+			<LookAt>
+				<longitude>-68.34874025957134</longitude>
+				<latitude>-34.57195847242659</latitude>
+				<altitude>0</altitude>
+				<heading>1.285648984119044</heading>
+				<tilt>26.9883258458385</tilt>
+				<range>83.53931329386789</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ltblu-pushpin41</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-68.3487829563589,-34.57196144513101,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>P - 34</name>
+			<visibility>0</visibility>
+			<description>Ubicación: Finca RESERO, calle Rawson, a 3 km al NORTE de calle Muñoz, luego ingresar 1.4 km al OESTE de calle Rawson (casa abandonada ).
+nº pozo - 17/0186
+asnm - 674m
+diam - 12&quot;
+medida a/b - 0.20m
+N.E. - 19 (-37.51m) / 20 ( - 38.68m) / 21 ( - 54m) / 22(s/medir)
+fecha - 20/07/2021 - 03/06/2022</description>
+			<LookAt>
+				<longitude>-68.31929968145108</longitude>
+				<latitude>-34.52799107991527</latitude>
+				<altitude>0</altitude>
+				<heading>1.284069527149707</heading>
+				<tilt>28.42397051227629</tilt>
+				<range>103.2753413468649</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ltblu-pushpin41</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-68.31942640794922,-34.52808192650075,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>P - 35</name>
+			<visibility>0</visibility>
+			<description>Ubicación: Finca Los Nogales, ( Feed-Lot Moreno), calle Rawson, en la curva, mano derecha a 3.3 km al NORTE de calle Muñoz.
+nº pozo - 17/0514
+asnm - 661m
+diam - 1m (cielo abierto)
+medida a/b - 0m (nivel de suelo)
+N.E. - 19 (-27.60m) / 20 ( -28.87m) / 21( -30.35m)/22(-31.68m)
+fecha - 20/07/2021 - 03/06/2022
+- 
+fecha 2/07/2025 
+NO SE PUDO BAJAR LA ZONDA</description>
+			<LookAt>
+				<longitude>-68.30497229197961</longitude>
+				<latitude>-34.53200618177955</latitude>
+				<altitude>0</altitude>
+				<heading>1.290760142281957</heading>
+				<tilt>29.99973488844842</tilt>
+				<range>92.39193795904414</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_red-pushpin1</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-68.30494529583044,-34.53208608765519,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>P - 38</name>
+			<visibility>0</visibility>
+			<description>Ubicación: Finca Jatun ( Bueno, Martin Gabriel), El Cerrito, calle Spinelli a 400 m al OESTE  de Adolfo Calle, El Cerrito.
+nº pozo 17/1066
+asnm - 663m
+diam - 10&quot;
+medida a/b - 0.40m
+N.E. - 19 (-30.11m) / 20 ( - 30.93m) / 21(seco)/22(obst)
+fecha - 17/07/2019 - 21/07/2021 - 03/06/2022</description>
+			<LookAt>
+				<longitude>-68.30411314369628</longitude>
+				<latitude>-34.55197613879531</latitude>
+				<altitude>0</altitude>
+				<heading>1.131909909914184</heading>
+				<tilt>29.99975593778304</tilt>
+				<range>158.9853857879176</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ltblu-pushpin41</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-68.30427145374284,-34.55198142288981,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>P - 40</name>
+			<visibility>0</visibility>
+			<description>Ubicación: Aceitera Alollio, calle Juan XXIII.
+nº pozo - 17/1708 (s/ tubo piezométrico)
+asnm - 707m
+diam - 4&quot;
+medida a/b - 0.20m
+N.E. - (-15.60m) / 20 ( s/medir)/21 (-19.53m)/22(23.68m)
+fecha - 21/07/2021-15/06/2022</description>
+			<LookAt>
+				<longitude>-68.37004661857246</longitude>
+				<latitude>-34.64215399833003</latitude>
+				<altitude>0</altitude>
+				<heading>0.1833975258107023</heading>
+				<tilt>28.86656296544813</tilt>
+				<range>170.2860585064975</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ltblu-pushpin41</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-68.37038832013376,-34.64216385963235,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>P - 41</name>
+			<visibility>0</visibility>
+			<description>Ubicación: Bodega Alto Limay, calle El Chañaral a 700m (mano derecha) al NORTE de RN 143, El Toledano.
+nº pozo - s/n DGI
+asnm - 728m
+diam - 1m cielo abierto c/ salida de 8&quot;
+medida a/b - 1.05m
+N.E. - 19 (-16.95m) / 20 ( - 16.18m) / 21 ( - 15.89m) / 22(s/medir)
+fecha - 21/07/2021 - 03/06/2022</description>
+			<LookAt>
+				<longitude>-68.36723388054278</longitude>
+				<latitude>-34.59737528313312</latitude>
+				<altitude>0</altitude>
+				<heading>1.613617805872246</heading>
+				<tilt>23.57196115708121</tilt>
+				<range>279.2472088136909</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ltblu-pushpin41</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-68.36817648121551,-34.59723392609647,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>P - 43</name>
+			<visibility>0</visibility>
+			<description>Ubicación: Avenida Sarmiento 2290 OESTE domicilio de la Sra Leonor Llorente, pasando canchas de futbol, sobre el lateral NORTE de la Avenida.
+nº pozo - s/nº DGI
+asnm - 711m
+diam - 1&quot;
+medida a/b - 0.22m
+N.E. - 19 (-21.26m) / 20 ( - 20.21m) - 21(-20.11m)
+fecha - 17/07/2019 -21/07/2021</description>
+			<Camera>
+				<longitude>-68.36256083302094</longitude>
+				<latitude>-34.61691079055628</latitude>
+				<altitude>353.4688215061763</altitude>
+				<heading>1.356439574650509</heading>
+				<tilt>6.050327407866865</tilt>
+				<roll>-0.5370913740336628</roll>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</Camera>
+			<styleUrl>#msn_ltblu-pushpin41</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-68.36168676808758,-34.61665073833773,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>P - 44</name>
+			<visibility>0</visibility>
+			<description>Ubicación: Coop. Goudge Limitada, Avenida Balloffet al 2800, mano derecha en sentido NORTE - SUR.
+nº pozo - s/n DGI
+asnm - 713m
+diam - 1.20 cielo abierto (con salida de 2&quot;)
+medida a/b - 0.42m
+N.E. - 19(-22.44m)/20(-22.88m)/21(-21.43m)/22(-24.07m)
+fecha - 17/07/2019 - 08/06/2020 - 21/07/2021-15/06/2022</description>
+			<LookAt>
+				<longitude>-68.36137495758736</longitude>
+				<latitude>-34.63099567992953</latitude>
+				<altitude>0</altitude>
+				<heading>1.794086936053719</heading>
+				<tilt>30.00003153402583</tilt>
+				<range>337.3889292982858</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ltblu-pushpin41</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-68.36174256421928,-34.6306253436009,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>P - 45</name>
+			<visibility>0</visibility>
+			<description>Ubicación: Establecimiento Industrial Naco-Hue, Avenida Velez Sarfield 735, mano izquierda en sentido NORTE - SUR.
+nº pozo - s/n DGI
+asnm - 687m
+diam - 1.20m a cielo abierto 
+medida a/b - 0.98m
+N.E. - 19 (-14.18m)/20(-14.25m)/ 21(-13.80m)/22(-15.22m)
+fecha - 22/07/2021-15/06/2022</description>
+			<LookAt>
+				<longitude>-68.32784836521789</longitude>
+				<latitude>-34.63607328382429</latitude>
+				<altitude>0</altitude>
+				<heading>1.773602057684139</heading>
+				<tilt>29.61701993807097</tilt>
+				<range>163.2383225631132</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ltblu-pushpin41</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-68.32766130708927,-34.63597952794954,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>P - 47</name>
+			<visibility>0</visibility>
+			<description>Ubicación: Rancho de Tenis, Calle Quiroga entre Diez Martin y Av. Ballofett, mano derecha en sentido OESTE - ESTE.
+nº pozo - 17/1792
+asnm - 711m
+diam - cielo abierto con salida de 3&quot;
+medida a/b - 0m (nivel de suelo)
+N.E. - 19 (-21.30m)/20(-22.03m)/21(-20.57m)/22(-21.89m)
+fecha - 18/07/2019 - 11/06/2020 - 21/07/2021-15/06/2022</description>
+			<LookAt>
+				<longitude>-68.35156070162876</longitude>
+				<latitude>-34.62495233747793</latitude>
+				<altitude>0</altitude>
+				<heading>1.918576680690234</heading>
+				<tilt>27.76950381057503</tilt>
+				<range>72.20512324708082</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ltblu-pushpin41</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-68.35142374355964,-34.62495829963378,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>P - 48</name>
+			<visibility>0</visibility>
+			<description>Ubicación: Camping Camioneros, Adolfo Calle 2500 y calle Favaloro. Se ingresa por A. Calle, el pozo se encuentra en el sector SUR-OESTE del predio a 50m de la pileta.
+nº pozo - s/nº DGI
+asnm - 685m
+diam - 1m cielo abierto - pozo calzado
+medida a/b - 0m (nivel de suelo)
+N.E. - 19 (-15.00m) / 20 ( - 12.40m)
+fecha - 18/07/2019</description>
+			<LookAt>
+				<longitude>-68.32132231288662</longitude>
+				<latitude>-34.59088043601401</latitude>
+				<altitude>0</altitude>
+				<heading>1.900179584943313</heading>
+				<tilt>20.38539190882716</tilt>
+				<range>354.8075049426109</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ltblu-pushpin41</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-68.32195391064207,-34.59059926957203,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>P - 49</name>
+			<visibility>0</visibility>
+			<description>Ubicación: Hospital Teodoro J. Shestakow, ala NORTE. se ingresa por calle E. Civit ó por calle Barcala. El pozo se encuentra detras de la sala de rayos X.
+nº pozo - 17/1948
+asnm - 696m
+diam - 1.20m cielo abierto con salida de 2&quot;
+medida a/b - 0.40m
+N.E. - 19(-25.56m)-20(cargar datos)
+fecha - 26/07/2019 - 29/07/2020</description>
+			<LookAt>
+				<longitude>-68.32641686443567</longitude>
+				<latitude>-34.61996311370322</latitude>
+				<altitude>0</altitude>
+				<heading>1.740740253054167</heading>
+				<tilt>23.34913084427517</tilt>
+				<range>399.8085188692249</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ltblu-pushpin41</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-68.32533038717958,-34.61988335543779,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>P - 50</name>
+			<visibility>0</visibility>
+			<description>Ubicación: Finca Fagerazzi, se ingresa a la propiedad por la  prolongación de Victorino de la Plaza OESTE, 1.8 KM de Av. Ballofett.
+nº pozo - 17/1996
+asnm - 735m
+diam - 12&quot;
+medida a/b - s/medir
+N.E. - 19 s/medir pozo con aceite. / 20 (- 34.00m)
+fecha - 26/07/2019 - 11/06/2020</description>
+			<LookAt>
+				<longitude>-68.38851011672043</longitude>
+				<latitude>-34.63217393008798</latitude>
+				<altitude>0</altitude>
+				<heading>1.944096515475453</heading>
+				<tilt>25.36250519123437</tilt>
+				<range>127.733781648377</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ltblu-pushpin41</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-68.38861030995716,-34.6321983314272,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>P - 52</name>
+			<visibility>0</visibility>
+			<description>Ubicación: Yesera ISERN, RN 144,  pasando calle El Vencedor, 650m al OESTE, mano derecha.
+nº pozo - 17/1571
+asnm - 749m
+diam - 1.20 cielo abierto con salida de 4&quot;
+medida a/b - 0.50m
+N.E. - 19 (-32.26m) / 20 ( s/ medir, en func)
+fecha - 26/07/2019 - 08/06/2020</description>
+			<LookAt>
+				<longitude>-68.41952860105025</longitude>
+				<latitude>-34.6312945216554</latitude>
+				<altitude>0</altitude>
+				<heading>1.716950987451667</heading>
+				<tilt>25.0351914253947</tilt>
+				<range>183.9738534657366</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ltblu-pushpin41</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-68.41994710244819,-34.6312338965907,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>P - 53</name>
+			<visibility>0</visibility>
+			<description>Ubicación: Secadero Dottori, calle El Vencedor a 1.8 km al SUR de RN 144. Sector NORTE del establecimiento.
+nº pozo - 17/1870
+asnm - 743m
+diam - 8&quot;
+medida a/b - 0.10m
+N.E. - 19 (-36.19m)-20 (func)-22(func)
+fecha - 26/07/19-08/06/20-04/07/22
+-
+fecha 03/07/2025
+En Funcionamiento Ir el Viernes</description>
+			<LookAt>
+				<longitude>-68.41960738964053</longitude>
+				<latitude>-34.65023431524633</latitude>
+				<altitude>0</altitude>
+				<heading>1.729069139996867</heading>
+				<tilt>29.07577827776171</tilt>
+				<range>176.1091999546941</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_red-pushpin2</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-68.41986789484844,-34.65027887362353,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>P - 54</name>
+			<visibility>0</visibility>
+			<description>Ubicación: Planta potabilizadora AySAM, calle Los Filtros, a 400m al OESTE de calle Dean Funes. Sector SUR del predio.
+nº pozo - 17/2275
+asnm - 734m
+diam - 12&quot;
+medida a/b - 0.20m
+N.E. - 19 (s/ medir. en func) / 20 ( s/ medir)
+fecha - 26/07/2019 - 11/06/2020</description>
+			<LookAt>
+				<longitude>-68.38870734202015</longitude>
+				<latitude>-34.62957845048037</latitude>
+				<altitude>0</altitude>
+				<heading>1.665071340280182</heading>
+				<tilt>18.31976106146033</tilt>
+				<range>79.16544972993887</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ltblu-pushpin41</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-68.38866445882685,-34.62943773329089,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>P - 55</name>
+			<visibility>0</visibility>
+			<description>Ubicación: Mayorista DISOL, calle Tirasso 1311, mano izquierda. Sector NOROESTE del predio.
+nº pozo - 17/1540
+asnm - 709m
+diam - 1.50 cielo abierto
+medida a/b - 0.40m
+N.E. - 19 (-14.61m) / 20 ( - 13.71m) / 21(-13.70m)/22(-14.84m)
+fecha - 29/07/2019 - 22/07/2021 - 08/06/2022</description>
+			<LookAt>
+				<longitude>-68.31061075699182</longitude>
+				<latitude>-34.60600997414903</latitude>
+				<altitude>0</altitude>
+				<heading>0.891601954910279</heading>
+				<tilt>24.12498424906915</tilt>
+				<range>297.855384440176</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ltblu-pushpin41</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-68.31071375094702,-34.60559859623443,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>P - 56</name>
+			<visibility>0</visibility>
+			<description>Ubicación: Bodega Tornaghi, calle Tirasso 1300, esquina calle Italia. El pozo se encuentra en el interior de la bodega.
+nº pozo - 17/1553
+asnm - 685m
+diam - 1m cielo abierto
+medida a/b - 0.30m
+N.E. - 19 (-14.82m) / 20 ( - 14.03m) - 21 (-13.81m9)/22(-15.18m)
+fecha - 29/07/2019 - 22/07/2021 - 08/06/2022</description>
+			<LookAt>
+				<longitude>-68.31336425363325</longitude>
+				<latitude>-34.60533411051165</latitude>
+				<altitude>0</altitude>
+				<heading>0.9782313507374407</heading>
+				<tilt>30.00141279351335</tilt>
+				<range>314.7266747355224</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ltblu-pushpin41</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-68.31334913139455,-34.60586969818641,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>P - 57</name>
+			<visibility>0</visibility>
+			<description>Ubicación: calle Tirasso 6627, esquina calle Luna.
+nº pozo - s/nº DGI
+asnm - 654m
+diam - 1m cielo abierto
+medida a/b - 0.70m
+N.E. - 0.70m obstruido - s/medir
+fecha - 29/07/2019</description>
+			<LookAt>
+				<longitude>-68.28906296886666</longitude>
+				<latitude>-34.56245183227455</latitude>
+				<altitude>0</altitude>
+				<heading>0.8281129317788258</heading>
+				<tilt>21.49988014019504</tilt>
+				<range>127.7307308152503</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ltblu-pushpin41</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-68.28929951229958,-34.56229531445072,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>P - 58</name>
+			<visibility>0</visibility>
+			<description>Ubicación: Finca La Estrella (Zingaretti - Andreani) calle Tirasso NORTE, llegando al Zanjon La Hedionda. La finca cuenta con 3 pozos, se mide NE en el que se ubica en el sector NORTE de la propiedad.
+nº pozo - 17/0431
+asnm - 620m
+diam - 10&quot;
+medida a/b - 1.50m
+N.E. - 19(-11.16m) / 21(-12.56m)
+fecha - 29/07/2019 - 21/07/2021</description>
+			<LookAt>
+				<longitude>-68.26786567088706</longitude>
+				<latitude>-34.53088745938047</latitude>
+				<altitude>0</altitude>
+				<heading>0.9528679994112409</heading>
+				<tilt>29.99924858826472</tilt>
+				<range>219.5861226552765</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ltblu-pushpin41</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-68.26842235533408,-34.5307885026301,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>P - 59</name>
+			<visibility>0</visibility>
+			<description>Ubicación: Finca Pietrelli, a 1.5 km al OESTE del ingreso a Finca La Estrella dónde termina calle Tirasso.
+nº pozo - 17/1343 - s/tubo piezométrico
+asnm - 627m
+diam - 10&quot;
+medida a/b - 1.42m
+N.E. - 19 (s/ medir) / 21(s/medir)
+fecha - 21/07/2021</description>
+			<LookAt>
+				<longitude>-68.28118296409485</longitude>
+				<latitude>-34.52835451510174</latitude>
+				<altitude>0</altitude>
+				<heading>0.9587657491395413</heading>
+				<tilt>29.85942274900012</tilt>
+				<range>229.3594165116294</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ltblu-pushpin41</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-68.28176614282927,-34.52839469607137,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>P - 6</name>
+			<visibility>0</visibility>
+			<description>Ubicacion: Estancia Los Reyunos, frente a la casa principal. se ingresa por la primer  tranquera que se encuentra pasando el Aº El Salado.
+Nº pozo - 17/0059
+asnm - 873m
+diam - 1m (cielo abierto)
+medida a/b - 0.23m
+N.E. - 19 (- 8.55m) / 20 ( - 8.80m ) / 21(-11.50m) 22(seco)
+fecha - 04/07/2019 / 05/07/2021 - 01/06/2022</description>
+			<LookAt>
+				<longitude>-68.57656682541575</longitude>
+				<latitude>-34.59023705810986</latitude>
+				<altitude>0</altitude>
+				<heading>1.58920460974263</heading>
+				<tilt>25.44132710889356</tilt>
+				<range>297.7886150187408</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ltblu-pushpin41</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-68.57703355763228,-34.59046855487875,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>P - 60</name>
+			<visibility>0</visibility>
+			<description>Ubicación: Estancia El Globo, pozo nº 1, se encuentra al ESTE de RP 154 a 1.2 km de esta en el sector de la represa (Eucaliptus).
+nº pozo - 17/1460
+asnm - 623m
+diam - 10&quot;
+medida a/b - 0.70m
+N.E. - 19(-5.22m)/20(-5.61m)/21(-5.61m)/22(-8.73m)
+fecha - 29/07/2019 - 26/06/2020 - 19/08/2021-01/07/2022</description>
+			<LookAt>
+				<longitude>-68.21080582111492</longitude>
+				<latitude>-34.54240993888994</latitude>
+				<altitude>0</altitude>
+				<heading>0.8260717657942244</heading>
+				<tilt>23.73912534232554</tilt>
+				<range>137.6094000012405</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ltblu-pushpin41</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-68.21081420424639,-34.54229312053959,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>P - 61</name>
+			<visibility>0</visibility>
+			<description>Ubicación: Finca Membrives, calle Merino, paraje La Nora, 3 km al OESTE de la vuelta de Merino.
+nº pozo - 17/1068
+asnm - 626m
+diam - 12&quot;
+medida a/b - 1.50m
+N.E. - 19(-11.36m)/20(-12.33m)/21(-12.62m)/22(-12.95m)
+fecha - 29/07/2019 - 26/06/2020 - 18/08/2021-01/07/2022</description>
+			<LookAt>
+				<longitude>-68.2435986017402</longitude>
+				<latitude>-34.52288025835538</latitude>
+				<altitude>0</altitude>
+				<heading>1.443563228281795</heading>
+				<tilt>23.24995957563806</tilt>
+				<range>177.8785685591538</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ltblu-pushpin41</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-68.24384296758839,-34.52265394159002,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>P - 62</name>
+			<visibility>0</visibility>
+			<description>Ubicación: Finca Vargas paraje La Nora, a 400m al OESTE de la vuelta de Merino.
+nº pozo - 17/0280
+asnm - 601m
+diam - 1.50m cielo abierto con salida de 6&quot;
+medida a/b - 0.20m
+N.E. - 19(-8.10m)/20(-8.61m)/21(s/medir)/22(-8.66m)
+fecha - 29/07/19-26/06/20-18/08/21-01/07/22</description>
+			<LookAt>
+				<longitude>-68.21494619420251</longitude>
+				<latitude>-34.52848770809052</latitude>
+				<altitude>0</altitude>
+				<heading>1.45614440344208</heading>
+				<tilt>26.87686291888701</tilt>
+				<range>227.6830380945611</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ltblu-pushpin41</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-68.21496261333716,-34.52848983096188,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>P - 63</name>
+			<visibility>0</visibility>
+			<description>Ubicación: Estancia El Globo, 370m al NORTE de la curva del cerro, mano derecha en sentido SUR - NORTE, sobre el olivar.
+nº pozo - 17/2233
+asnm - 610m
+diam - 12&quot;
+medida a/b - 0.20m
+N.E. - 19(-1.74m) - 20(-2.00m) - 21(func)/22(func)
+fecha - 29/07/2019 - 26/06/2020 - 19/08/2021-01/07/2022</description>
+			<LookAt>
+				<longitude>-68.22882223179624</longitude>
+				<latitude>-34.55142464952789</latitude>
+				<altitude>0</altitude>
+				<heading>1.485879316527495</heading>
+				<tilt>30.00058632426294</tilt>
+				<range>130.2930751403926</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ltblu-pushpin41</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-68.228820074528,-34.55156029635312,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>P - 64</name>
+			<visibility>0</visibility>
+			<description>Ubicación: Estancia El Globo, sector SUROESTE de la propiedad, mano izquierda de RP 154, a 2.7 km al NORTE de calle El Palomar (El 43).
+nº pozo - 17/2084
+asnm - 615m
+diam - 12&quot;
+medida a/b - 0.10m
+N.E. - 19(-2.46m)/20(-3.15m)/21(func)/22(-5.60m)
+fecha - 29/07/2019 - 26/06/2020 - 19/08/2021-01/07/2022</description>
+			<LookAt>
+				<longitude>-68.2396942910722</longitude>
+				<latitude>-34.55156722840547</latitude>
+				<altitude>0</altitude>
+				<heading>1.492021305202052</heading>
+				<tilt>29.9996536229289</tilt>
+				<range>162.5636886351386</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ltblu-pushpin41</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-68.23985821871024,-34.5513358669273,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>P - 65</name>
+			<visibility>0</visibility>
+			<description>Ubicación: Finca Luis Sierra, calle El Palomar y continuación calle Salas.
+nº pozo - 17/1985
+asnm - 630m
+diam - 1.20m cielo abierto con salida de 3&quot;
+medida a/b - 0.14m
+N.E. - 19(-13.51m)/20(s/medir)/21(s/medir)/22(s/medir)
+fecha - 29/07/2019 - 29/07/2020 - 19/08/2021-01/07/2022</description>
+			<LookAt>
+				<longitude>-68.26008116898556</longitude>
+				<latitude>-34.57084405646653</latitude>
+				<altitude>0</altitude>
+				<heading>1.503606853971379</heading>
+				<tilt>30.00003645224024</tilt>
+				<range>124.8785309095183</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ltblu-pushpin41</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-68.26015087724929,-34.57083638158414,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>P - 66</name>
+			<visibility>0</visibility>
+			<description>Ubicación: Finca Virginia E. Moyano (Carlos Acosta) calle Schiavone mano izquierda, a 150 m al ESTE de Adolfo Calle, El Cerrito.
+nº pozo - 17/1512
+asnm - 670m
+diam - 10&quot;
+medida a/b - 0.25m
+N.E. - (-26.96m)
+fecha - 29/07/2019</description>
+			<LookAt>
+				<longitude>-68.30424960006583</longitude>
+				<latitude>-34.56622090390495</latitude>
+				<altitude>0</altitude>
+				<heading>1.195892835136959</heading>
+				<tilt>10.15695606917283</tilt>
+				<range>198.3390164601967</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ltblu-pushpin41</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-68.30437375468166,-34.5661128187344,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>P - 67</name>
+			<visibility>0</visibility>
+			<description>Ubicación: Bodega La Abeja, Ripa de Asens , Edith Isabel, El pozo se encuentra a 250 m al NORTE de Av. Hipolito Irigoyen, ciudad.
+nº pozo - 17/0763
+asnm - 701m
+diam - 10&quot;
+medida a/b - 0.46m
+N.E. - (-16.40m) - 21(-15.29m)/22(-16.97m)
+fecha - 21/07/2021 - 08/06/2022</description>
+			<LookAt>
+				<longitude>-68.349715515459</longitude>
+				<latitude>-34.60656106936224</latitude>
+				<altitude>0</altitude>
+				<heading>1.42034262126486</heading>
+				<tilt>16.68185212859963</tilt>
+				<range>218.5738294148279</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ltblu-pushpin41</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-68.35056466392669,-34.60662709672872,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>P - 68</name>
+			<visibility>0</visibility>
+			<description>Ubicación: Finca Argenseres, pozo nº 2, se encuentra en el centro de la finca a 1.2 km del porton de ingreso a la misma, luego 130 m al SUR del callejon central.
+nº pozo - 17/2152
+asnm - 627m
+diam - 12&quot;
+medida a/b - 0.65m
+N.E. - 19 (-9.51m) / 21 (-10.52m)/22(-26.14m)
+fecha - 21/07/2021- 08/06/2022</description>
+			<LookAt>
+				<longitude>-68.26600336366531</longitude>
+				<latitude>-34.55002081779549</latitude>
+				<altitude>0</altitude>
+				<heading>1.47677047550032</heading>
+				<tilt>24.86989312667988</tilt>
+				<range>197.4332421052729</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ltblu-pushpin41</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-68.26577004183291,-34.55008676383901,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>P - 69</name>
+			<visibility>0</visibility>
+			<description>Ubicación: Finca Argenseres, pozo nº 1, sector SUROESTE de la propiedad , sobre calle Tirasso, a 400 m al SUR del porton de ingreso.
+nº pozo - 17/0668
+asnm - 643m
+diam - 12&quot;
+medida a/b - 0.34m
+N.E. - 19 (-17.83m) / 21(-18.87m)/22(20.90m)
+fecha - 21/07/2021- 08/06/2022</description>
+			<LookAt>
+				<longitude>-68.2804966770357</longitude>
+				<latitude>-34.55063235462331</latitude>
+				<altitude>0</altitude>
+				<heading>1.513688187620444</heading>
+				<tilt>28.66250412724627</tilt>
+				<range>124.1203502321826</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ltblu-pushpin41</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-68.28061275836018,-34.5506684710026,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>P - 70</name>
+			<visibility>0</visibility>
+			<description>Ubicación: Estancia El Globo, 950 m al NORTE  de la intersección de Calle El Monte y Palomar, mano derecha en sentido SUR - NORTE.
+nº pozo - 17/1600
+asnm - 605m
+diam - 2.00m cielo abierto con salida de 10&quot;
+medida a/b - 0m (nivel de suelo)
+N.E. - 19(-2.00m)-20(-2.93m)-21(-3.32m)/22(func)
+fecha - 30/07/19-25/06/20-19/08/21-01/07/22</description>
+			<LookAt>
+				<longitude>-68.21393721151591</longitude>
+				<latitude>-34.56740326017954</latitude>
+				<altitude>0</altitude>
+				<heading>1.482467074714137</heading>
+				<tilt>29.99971881876155</tilt>
+				<range>289.8657322392793</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ltblu-pushpin41</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-68.213951108269,-34.56792496572328,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>P - 71</name>
+			<visibility>0</visibility>
+			<description>Ubicación: Finca Henryck Schoeman (Sudafricanos) a 4.2 km al ESTE (camino del ferrocarril) de la intersección de calle El Monte y El Palomar. Luego 800 m al SUR.
+nº pozo - 17/1334
+asnm - 587m
+diam - 12&quot;
+medida a/b - 0.15m
+N.E. - 19(-1.99m)-20(1.43m)/21(s/medir)/22(s/medir)
+fecha - 30/07/19-25/06/20-19/08/21-01/07/22</description>
+			<LookAt>
+				<longitude>-68.17264670753144</longitude>
+				<latitude>-34.5687813843832</latitude>
+				<altitude>0</altitude>
+				<heading>1.459053973456982</heading>
+				<tilt>30.00080694308382</tilt>
+				<range>186.2463794673179</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ltblu-pushpin41</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-68.17261873516553,-34.5690143722384,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>P - 72</name>
+			<visibility>0</visibility>
+			<description>Ubicación: Finca Campos, calle El Palomar a 1.9 km al ESTE de prolongación calle Sarmiento (43). Entre calle La Intendencia y El Monte.
+nº pozo - 17/0284
+asnm - 616m
+diam - 1.20m cielo abierto con salida de 6&quot;
+medida a/b - 1.00m
+N.E. - 19(-2.94m)-20(-4.09m)/21(-4.10m)/22(-4.42m)
+fecha - 30/07/19 -25/06/20-19/08/21-01/07/22</description>
+			<LookAt>
+				<longitude>-68.23056554111497</longitude>
+				<latitude>-34.57683333639399</latitude>
+				<altitude>0</altitude>
+				<heading>1.469889304355695</heading>
+				<tilt>26.8000406762445</tilt>
+				<range>161.5251405943074</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ltblu-pushpin41</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-68.23073825863345,-34.57682432418936,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>P - 73</name>
+			<visibility>0</visibility>
+			<description>Ubicación: Finca Raul Lorenzo RP 154,  mano izquierda, en sentido OESTE - ESTE a 4 km al ESTE de la vuelta de Merino, (curva de Aldave).
+nº pozo - 17/1101
+asnm- 579m
+diam - 1.20m cielo abierto con salida de 8&quot;
+medida a/b - 0 m
+N.E. - 19(-2.16m)/20(-2.45m)/21(-2.51m)/22(-2.49m)
+fecha - 30/07/19 -26/06/20-18/08/21-01/07/22</description>
+			<LookAt>
+				<longitude>-68.16822069895768</longitude>
+				<latitude>-34.54000375970767</latitude>
+				<altitude>0</altitude>
+				<heading>1.441476704815694</heading>
+				<tilt>28.2106919120147</tilt>
+				<range>314.3403520909153</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ltblu-pushpin41</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-68.16811207566337,-34.54022590082192,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>P - 74</name>
+			<visibility>0</visibility>
+			<description>Ubicación: Finca Arebalo, (abandonada) sobre RP 154, curva de Ranea, mano derecha a 1.5 km al SUR de la Escuela Juan de Garay, paraje Resolana.
+nº pozo - 17/0875
+asnm - 575m
+diam - 12&quot;
+medida a/b - 0.35m
+N.E. - 19(-2.41m)/20(-3.03m)/21(-3.11m)/22(-2.93m)
+fecha - 30/07/19- 26/06/20-18/08/21-01/07/22</description>
+			<LookAt>
+				<longitude>-68.15030356345829</longitude>
+				<latitude>-34.53636914475833</latitude>
+				<altitude>0</altitude>
+				<heading>1.417165464110779</heading>
+				<tilt>25.84947748699828</tilt>
+				<range>174.9701346644739</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ltblu-pushpin41</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-68.1504888888889,-34.53627047586831,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>P - 75</name>
+			<visibility>0</visibility>
+			<description>Ubicación: Finca Dottori ( Johnson, Maria) a 1.3 km al NORTE de RP 154 (curva) por calle de tierra, luego 600 m al OESTE consteando canal impermeabilizado.
+nº pozo - 17/1499
+asnm - 580m
+diam - 12&quot; con salida de 10&quot;
+medida a/b - 1.20m
+N.E. - 19(-9.91m)/20(-10.97m)/21(-11.20m)/22(-11.44m)
+fecha - 30/07/19-26/06/20-18/08/21-01/07/22</description>
+			<LookAt>
+				<longitude>-68.14260041114935</longitude>
+				<latitude>-34.5091405874753</latitude>
+				<altitude>0</altitude>
+				<heading>1.302849934076225</heading>
+				<tilt>16.00053360975892</tilt>
+				<range>286.3748355048443</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ltblu-pushpin41</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-68.14319472327423,-34.50883694399575,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>P - 76</name>
+			<visibility>0</visibility>
+			<description>Ubicación: Campo Claudio Ferracin (Raúl Bianchi), por calle Ripa pasando zanjon La Hedionda, 700 m a la derecha se encuentra una tranquera blanca, de esta 10 km al NORESTE.
+nº pozo - 17/1943
+asnm - 567m
+diam - 1.00m cielo abierto
+medida a/b - 0.44m
+N.E. - s/ medir obstruido por raices.
+fecha - 30/07/2019</description>
+			<LookAt>
+				<longitude>-68.04727117915371</longitude>
+				<latitude>-34.47824224791413</latitude>
+				<altitude>0</altitude>
+				<heading>1.267146166514214</heading>
+				<tilt>17.05194307497776</tilt>
+				<range>260.0010103628173</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ltblu-pushpin41</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-68.04785482585916,-34.47798901849982,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>P - 77</name>
+			<visibility>0</visibility>
+			<description>Ubicación: Campo Claudio Ferracin (Raúl Bianchi) por calle Ripa pasando zanjon La Hedionda, 700 m al NORTE se encuentra tranquera blanca, de esta 10 km al NORESTE.
+nº pozo - 17/2140
+asnm - 562m
+diam . 12&quot;
+medida a/b - 0.35m
+N.E. - (-31.56m)
+fecha - 30/07/2019</description>
+			<LookAt>
+				<longitude>-68.04739522895009</longitude>
+				<latitude>-34.47803046666802</latitude>
+				<altitude>0</altitude>
+				<heading>1.381719329349579</heading>
+				<tilt>29.77786503307686</tilt>
+				<range>103.8131489845692</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ltblu-pushpin41</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-68.04739522895009,-34.47803046666802,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>P - 78</name>
+			<visibility>0</visibility>
+			<description>Ubicación: Finca Farina (Cimo de Alberti) calle Ripa NORTE (boulevard), última finca mano derecha en sentido SUR - NORTE, 500m antes del zanjon La Hedionda.
+nº pozo - 17/0545
+asnm - 572m
+diam - 10&quot;
+medida a/b - 0.60m
+N.E. - 19(-6.41m)/20(-8.68m)/21(-10.15m)/22(-10.11m)
+fecha - 30/07/19-26/06/20-18/08/21-01/07/22</description>
+			<LookAt>
+				<longitude>-68.12628824316781</longitude>
+				<latitude>-34.51246509711265</latitude>
+				<altitude>0</altitude>
+				<heading>1.395342070743317</heading>
+				<tilt>24.61683680458322</tilt>
+				<range>126.1224720682393</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ltblu-pushpin41</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-68.1265192089766,-34.5124082061296,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>P - 79</name>
+			<visibility>0</visibility>
+			<description>Ubicación: Estancia Resolana (Tierras de Resolana SRL), 1.2 km al NORTE de RP 154. El ingreso a la Estancia se encuentra a 50m antes de la curva de la RP 154 (a la derecha, en sentido OESTE - ESTE), que termina en Colonia Elena.
+nº pozo - 17/1591
+asnm - 564m
+diam - 12&quot;
+medida a/b - 0.25m
+N.E. - 19(-5.37m)/20(-6.18m)/21(-6.38m)/22(func)
+fecha - 30/07/19-26/06/20-18/08/21-01/07/22</description>
+			<LookAt>
+				<longitude>-68.08749862208361</longitude>
+				<latitude>-34.52335130649825</latitude>
+				<altitude>0</altitude>
+				<heading>1.088457709160598</heading>
+				<tilt>9.504998350368753</tilt>
+				<range>221.6930299692691</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ltblu-pushpin41</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-68.08776031324595,-34.52331264584901,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>P - 80</name>
+			<visibility>0</visibility>
+			<description>Ubicación: Finca Daniel Rodriguez, calle Bandana ó Acerete (pasando calle Ripa 1.3 km al ESTE criadero de perros), luego al NORTE, 900m de RP 154.
+nº pozo - 17/0654
+asnm - 569m
+diam - 12&quot;
+medida a/b - 0.90m
+N.E. - 19(-7.39m)/20(-8.58m)/21(-8.79m)/22(s/medir)
+fecha - 30/07/19-26/06/20-18/08/21-01/07/22</description>
+			<LookAt>
+				<longitude>-68.11446903432407</longitude>
+				<latitude>-34.51976136199492</latitude>
+				<altitude>0</altitude>
+				<heading>1.221128489338136</heading>
+				<tilt>12.80631790103042</tilt>
+				<range>196.9280080467405</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ltblu-pushpin41</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-68.1151687979231,-34.51978509593883,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>P - 81</name>
+			<visibility>0</visibility>
+			<description>Ubicación: Club Huracan, Avenida Mitre, Pueblo Diamante 300 m antes de la rotonda de la copa. Lateral NORTE en sentido OESTE-ESTE. El  pozo se encuentra en el sector de la pileta, detras de la popular SUR.
+nº pozo - s/n DGI
+asnm - 670m
+diam - 1.70m cielo abierto
+medida a/b - 0.30m
+N.E. - 19(-9.24m)-20(-5.99m)-21
+fecha - 01/08/2019-29/07/2020</description>
+			<LookAt>
+				<longitude>-68.29355162046893</longitude>
+				<latitude>-34.62749984250083</latitude>
+				<altitude>0</altitude>
+				<heading>1.513898782933257</heading>
+				<tilt>27.75699478050005</tilt>
+				<range>187.1472513837209</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ltblu-pushpin41</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-68.29391806631151,-34.62752563272009,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>P - 82</name>
+			<visibility>0</visibility>
+			<description>Ubicación: Metalurgica Tassaroli, RN 146, lateral NORTE, entre calle Los Ranqueles y Sarmiento, Cuadro Nacional.
+nº pozo - 17/2035
+asnm - 663m
+diam - 8&quot;
+medida a/b - 0.25m
+N.E. - 19(-6.25m) - 20(-5.88m) - 21 (5.58m)
+fecha - 01/08/2019 - 11/06/2020 - 22/07/2021</description>
+			<LookAt>
+				<longitude>-68.28242034549646</longitude>
+				<latitude>-34.6303472349929</latitude>
+				<altitude>0</altitude>
+				<heading>1.491118622009449</heading>
+				<tilt>25.53348591906748</tilt>
+				<range>185.6531959529177</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ltblu-pushpin41</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-68.28214986069953,-34.63029878962233,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>P - 83</name>
+			<visibility>0</visibility>
+			<description>Ubicación: Finca Izuel, de la vuelta de Rodrigo 4 km al NORTE por calle El Monte, girar a la derecha  1.4 km al ESTE de esta, mano izquierda.
+nº pozo - 17/1297
+asnm - 617m
+diam - 12&quot;
+medida a/b - 0.55m
+N.E. - 19(-2.71m)-20(-3.32m)-21(-3.32m)-22(-3.44m)
+fecha - 01/08/19-25/06/20-19/08/21-01/07/22</description>
+			<LookAt>
+				<longitude>-68.21441698969194</longitude>
+				<latitude>-34.59868713721485</latitude>
+				<altitude>0</altitude>
+				<heading>1.480432967028507</heading>
+				<tilt>29.99931344241414</tilt>
+				<range>208.0201727562579</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ltblu-pushpin41</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-68.21463432625944,-34.59892395749557,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>P - 84</name>
+			<visibility>0</visibility>
+			<description>Ubicación: Finca El Forestal, por callejon Santo Domingo a 2.2 km al ESTE de calle El Monte. Pozo 1.
+nº pozo - 17/0955
+asnm - 607m
+diam - 12&quot; con salida de 6&quot;
+medida a/b - 0 m 
+N.E. - 19(func)-20 (func)-21(-3.11m)-22(-4.09m)
+fecha - 01/08/19-25/06/20-19/08/21-01/07/22</description>
+			<LookAt>
+				<longitude>-68.19935810646162</longitude>
+				<latitude>-34.59604483896751</latitude>
+				<altitude>0</altitude>
+				<heading>1.432050421355755</heading>
+				<tilt>24.10454127113689</tilt>
+				<range>166.8642346727351</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ltblu-pushpin41</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-68.19958193175657,-34.59593862580638,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>P - 85</name>
+			<visibility>0</visibility>
+			<description>Ubicación: Finca El Forestal, por callejon Santo Domingo a 2.2 km al ESTE de calle El Monte. Pozo 2.
+nº pozo - 17/2351
+asnm - 607m
+diam - 12&quot;
+medida a/b - 0.30m
+N.E. - 19(-2.76m)-20(-2.65m)-21(func)-22(-2.49m)
+fecha - 01/08/19-25/06/20-19/08/21-01/07/22</description>
+			<LookAt>
+				<longitude>-68.20174401876599</longitude>
+				<latitude>-34.59523015914378</latitude>
+				<altitude>0</altitude>
+				<heading>1.473096118970046</heading>
+				<tilt>29.99915747028421</tilt>
+				<range>175.3039842094169</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ltblu-pushpin41</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-68.20166456180104,-34.59535190117028,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>P - 86</name>
+			<visibility>0</visibility>
+			<description>Ubicación: Finca Izuel, por callejon Santo Domingo a 2 km al NORTE del ingreso a Finca El Forestal.
+nº pozo - 17/1393
+asnm - 603m
+diam - 12&quot; - s/ tubo piezométrico
+medida a/b - 1.70m
+N.E. - 19(-1.99m)/20(-1.40m)/21(-1.49m)-22(-1.14m)
+fecha - 01/08/19-25/06/20-19/08/21-01/07/22</description>
+			<LookAt>
+				<longitude>-68.19352432193949</longitude>
+				<latitude>-34.5779239730439</latitude>
+				<altitude>0</altitude>
+				<heading>1.468385637541591</heading>
+				<tilt>27.98763514175689</tilt>
+				<range>146.7765340183759</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ltblu-pushpin41</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-68.19378848680992,-34.57792758289225,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>P - 87</name>
+			<visibility>0</visibility>
+			<description>Ubicación: Finca Izuel, por callejon Santo Domingo a 1.6 km al NORTE del ingreso a Finca El Forestal.
+nº pozo - 17/1305
+asnm - 606m
+diam - 12&quot;
+medida a/b - 0.80m
+N.E. - 19(-2.81m)-20(-2.68m)-21(-3.09m)-22(-3.48m)
+fecha - 01/08/19-25/06/20-19/08/21-01/07/22</description>
+			<LookAt>
+				<longitude>-68.19545323814717</longitude>
+				<latitude>-34.58228189230959</latitude>
+				<altitude>0</altitude>
+				<heading>1.469367087173616</heading>
+				<tilt>27.6318612538668</tilt>
+				<range>174.083378007049</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ltblu-pushpin41</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-68.19582186480868,-34.58216522237215,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>P - 88</name>
+			<visibility>0</visibility>
+			<description>Ubicación: Estancia EL Globo, 950 m al OESTE, se ingresa por tranquera que se encuentra frente al ingreso principal al Establecimiento, luego se gira al NORTE 300m.
+nº pozo - 17/1947
+asnm - 620m
+diam - 12&quot; con salida de 6&quot;
+medida a/b - 0 m 
+N.E. - 19(-5.18 m)/20(-5.53m)/21(func)/22(func)
+fecha - 01/08/2019 - 26/06/2020 - 19/08/2021-01/07/2022</description>
+			<LookAt>
+				<longitude>-68.23240040769053</longitude>
+				<latitude>-34.53549216751814</latitude>
+				<altitude>0</altitude>
+				<heading>1.488993203389371</heading>
+				<tilt>30.00005673653981</tilt>
+				<range>237.7510456299367</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ltblu-pushpin41</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-68.23220077840605,-34.53561499898813,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>P - 89</name>
+			<visibility>0</visibility>
+			<description>Ubicación: Finca Salafia, calle Bombal NORTE a 1.4 km de RN 146, luego doblar a la izquierda 300m,  Cuadro Bombal. Pozo nº 1.
+nº pozo - 17/0276
+asnm - 617m
+diam - 10&quot; con salida de 6&quot;
+medida a/b - 2.70m
+N.E. - 19(func)-20(-7.50m)-21(-7.88m)-22(-2.07m)
+fecha - 02/08/19-25/06/20-11/08/21-14/07/22</description>
+			<LookAt>
+				<longitude>-68.22743805231825</longitude>
+				<latitude>-34.62089647454551</latitude>
+				<altitude>0</altitude>
+				<heading>1.483539801090177</heading>
+				<tilt>29.53125556248812</tilt>
+				<range>232.1352338816922</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ltblu-pushpin41</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-68.22796405408997,-34.62080620873381,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>P - 9</name>
+			<visibility>0</visibility>
+			<description>Ubicacion: Bodega MUMM, calle Sarmiento y Jensen, Las Paredes. Sectore piletas ecualizadoras.
+Nº pozo - 17/0154
+asnm - 762m
+diam - 1.45m (cielo abierto)
+medida a/b - 0.10m
+N.E. - 19 (-20.86m) / 20 ( - 19.09m ) / 21 ( -19.49m)
+fecha - 21/07/2021
+- POZO CEGADO EN BAJA</description>
+			<LookAt>
+				<longitude>-68.41842848724443</longitude>
+				<latitude>-34.59785440965614</latitude>
+				<altitude>0</altitude>
+				<heading>1.503578231270918</heading>
+				<tilt>30.00015328655159</tilt>
+				<range>132.1029380448699</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ltblu-pushpin41</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-68.41854048208273,-34.5978354311558,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>P - 90</name>
+			<visibility>0</visibility>
+			<description>Ubicación: Finca Salafia, calle Bombal NORTE frente a la escuela  a 680 m al NORTE de RN 146. Pozo nº 2.
+nº pozo - 17/0355
+asnm - 616m
+diam - 12&quot; con salida de 8&quot;
+medida a/b - 0.45m
+N.E. - 19(-7.37m)-20(-7.58m)-21(-7.84)-21(-7.84m)-22(-7.82m)
+fecha - 02/08/19-25/06/20-11/08/21-14/07/22</description>
+			<LookAt>
+				<longitude>-68.2267801440767</longitude>
+				<latitude>-34.62645310280533</latitude>
+				<altitude>0</altitude>
+				<heading>1.483512869895314</heading>
+				<tilt>30.00089364874744</tilt>
+				<range>199.0867949529938</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ltblu-pushpin41</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-68.2269447258288,-34.62671856822423,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>P - 91</name>
+			<visibility>0</visibility>
+			<description>Ubicación: Finca La Paz ( Bruce, Joseph Christian), sobre RN 146 a 1.5 km al ESTE de calle Bombal. Lateral NORTE.
+nº pozo - 17/1434
+asnm - 602m
+diam - 12&quot;
+medida a/b - 0.45m
+N.E. - 19(-2.88m)-20(-3.33m)-21(-3.44m)-22(-3.32m)	
+fecha - 02/08/19-25/06/20-11/08/21-14/07/22</description>
+			<LookAt>
+				<longitude>-68.2136602669585</longitude>
+				<latitude>-34.63204156886079</latitude>
+				<altitude>0</altitude>
+				<heading>1.476094767028618</heading>
+				<tilt>29.58594317056334</tilt>
+				<range>185.37935650898</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ltblu-pushpin41</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-68.21381378603752,-34.63203540244706,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>P - 92</name>
+			<visibility>0</visibility>
+			<description>Ubicación:  Finca Paulino Fernandez, por callejon s/n a 600 m al NORTE de RN 146, ingreso Finca La Paz.
+nº pozo - 17/1214
+asnm - 592m
+diam - 12&quot; con salida de 10&quot;
+medida a/b - 1.35 m 
+N.E. - 19(-2.58m)-20(-3.04m)-21(-3.00m)-22(-2.92m)
+fecha - 02/08/19-25/06/20-11/08/21-14/07/22</description>
+			<LookAt>
+				<longitude>-68.21388701694032</longitude>
+				<latitude>-34.62684902094581</latitude>
+				<altitude>0</altitude>
+				<heading>1.476227736385562</heading>
+				<tilt>24.00112327757487</tilt>
+				<range>200.5356928477938</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ltblu-pushpin41</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-68.21393767576753,-34.62697594611464,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>P - 93</name>
+			<visibility>0</visibility>
+			<description>Ubicación: Finca Antonio Gonzalez, por callejon s/n a 1.5 km al NORTE  de RN 146, ingreso a Finca La Paz.
+nº pozo - 17/1617
+asnm - 603m
+diam - 12&quot; con salida de 10&quot;
+medida a/b - 1.30m
+N.E. - 19(-1.60m)-20(-1.80m)-21(-1.67m)-22(s/medir)*
+fecha - 02/08/19-25/06/20-11/08/21-14/07/22
+Observaciones:*la boca de salida se encuentra con una manga y no tiene tubo piezometrico.</description>
+			<LookAt>
+				<longitude>-68.20747024184583</longitude>
+				<latitude>-34.62051739724211</latitude>
+				<altitude>0</altitude>
+				<heading>1.473264509683202</heading>
+				<tilt>26.37152820026129</tilt>
+				<range>139.5109047074459</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ltblu-pushpin41</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-68.20757703742976,-34.62050174598855,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>P - 94</name>
+			<visibility>0</visibility>
+			<description>Ubicación:  Finca Del Pozzi, calle Bombal a 800 m al SUR de RN 146. Zona de la Escuela.
+nº pozo - 17/0313
+asnm - 622m
+diam - 10&quot; con salida de 6&quot;
+medida a/b - 0.40m
+N.E. - 19(-11.76m)-20(-11.71m)-21(-12.35m)-22(-11.91m)
+fecha - 02/08/19-30/06/20-10/08/21-14/07/22</description>
+			<LookAt>
+				<longitude>-68.23437841565979</longitude>
+				<latitude>-34.64250191037182</latitude>
+				<altitude>0</altitude>
+				<heading>1.484719685742121</heading>
+				<tilt>21.00050827090358</tilt>
+				<range>240.1797410980843</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ltblu-pushpin41</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-68.23506419614439,-34.64238855996269,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>P - 95</name>
+			<visibility>0</visibility>
+			<description>Ubicación: Finca Don Juan, a 1.5 km al SUR de RN 146 y a 500 m al ESTE de calle Bombal.
+nº pozo - 17/0855 s/ tubo piezométrico
+asnm - 615m 
+diam - 12&quot; con salida de 10&quot;
+medida a/b - 0 m 
+N.E. - (s/ medir- en func) - 20(s/medir-en func) - 21(en func)
+fecha - 02/08/2019 - 30/06/2020 - 10/08/2021</description>
+			<LookAt>
+				<longitude>-68.22987223598237</longitude>
+				<latitude>-34.64440709414334</latitude>
+				<altitude>0</altitude>
+				<heading>1.482161366795909</heading>
+				<tilt>27.66907997263847</tilt>
+				<range>141.0864253031652</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ltblu-pushpin41</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-68.22976636300648,-34.64437860734846,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>P - 96</name>
+			<visibility>0</visibility>
+			<description>Ubicación: Estancia La Buena Vida, calle la Zorrillana a 1.7 km al ESTE  de calle Bombal SUR. Pozo nº 1, 500 m antes del ingreso al Laberinto de BORGES, en sentido NORTE - SUR.
+nº pozo - 17/2236
+asnm - 599m
+diam - 12&quot; con salida de 6&quot;
+medida a/b - 0 m
+N.E. - 19(-5.26m)-20(-5.83m)-21(-5.88m)-22(-5.91m)
+fecha - 02/08/19-30/06/20-10/08/21-14/07/22</description>
+			<LookAt>
+				<longitude>-68.22017377161862</longitude>
+				<latitude>-34.6473912601062</latitude>
+				<altitude>0</altitude>
+				<heading>1.475371921996222</heading>
+				<tilt>21.82057994576397</tilt>
+				<range>153.1006253475949</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ltblu-pushpin41</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-68.22033047469432,-34.64735950196197,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>P - 97</name>
+			<visibility>0</visibility>
+			<description>Ubicación: Estancia La Buena Vida, callejon La Zorrillana 300 m al SUR del ingreso a la misma. Pozo nº 2.
+nº pozo - 17/1298
+asnm - 607m
+diam - 12&quot;
+medida a/b - 1.90m
+N.E. - 19(-5.34m)-20(-5.76m)-21(-6.10m)22(-6.32m)
+fecha - 02/08/19-30/06/20-10/08/21-14/07/22</description>
+			<LookAt>
+				<longitude>-68.22036817047777</longitude>
+				<latitude>-34.64925032079056</latitude>
+				<altitude>0</altitude>
+				<heading>1.475482435851351</heading>
+				<tilt>21.82103086316942</tilt>
+				<range>153.5716340623803</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ltblu-pushpin41</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-68.22064308267811,-34.64928388420678,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>P - 98</name>
+			<visibility>0</visibility>
+			<description>Ubicación: Finca Papagni, fin callejon Zorrillana y Canal marginal Izquierdo, mano izquierda en sentido NORTE-SUR.
+nº pozo - 17/0306
+asnm - 600m
+medida a/b - 0.40m
+N.E. - 19(-3.61m)-20(-4.16m)-21(-4.60m)-22(-4.39m)
+fecha - 02/08/19-30/06/20-10/08/21-14/07/22</description>
+			<LookAt>
+				<longitude>-68.21722847152927</longitude>
+				<latitude>-34.65899565760621</latitude>
+				<altitude>0</altitude>
+				<heading>1.473684527886421</heading>
+				<tilt>23.6079225411191</tilt>
+				<range>197.6127756941023</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ltblu-pushpin41</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-68.21784698711127,-34.65935387477659,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>P - 99</name>
+			<visibility>0</visibility>
+			<description>Ubicación: Finca Bombal por RP 165 (Tunel de Plantas) a 950 m al SUR- ESTE de la rotonda de la vuelta de Zamora, lateral SUR.
+nº pozo - 17/0933
+asnm - 630m
+diam - 1 m cielo abierto
+medida a/b - 0.30m
+N.E. - 19(-5.87m) - 20(-5.52m) - 21(-5.67m)
+fecha - 02/08/2019 - 30/06/2020 - 10/08/2021</description>
+			<LookAt>
+				<longitude>-68.24947963353401</longitude>
+				<latitude>-34.65806052299121</latitude>
+				<altitude>0</altitude>
+				<heading>1.492689902632092</heading>
+				<tilt>22.78728007378549</tilt>
+				<range>92.91100420401429</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ltblu-pushpin41</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-68.24981280706369,-34.65803603611773,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>P- 46</name>
+			<visibility>0</visibility>
+			<description>Ubicación: Country Belgrano Rugby Club (DESARROLLADORA DEL OESTE SA). Por Av. del Trabajo, 400m al SUR de Av. Los Sauces, luego por Av. Julio Derqui, 200m al OESTE.
+nº pozo - 17/2344
+asnm - 729m
+diam - 8&quot;
+medida a/b - 0.60m
+N.E. - 19 (-33.64m) / 20 ( - 27.10m) - 21 s/medir c/candado
+fecha - 18/07/2019 - 11/06/2020 - 21/07/2021</description>
+			<LookAt>
+				<longitude>-68.37154925152416</longitude>
+				<latitude>-34.62646572683411</latitude>
+				<altitude>0</altitude>
+				<heading>1.930528772141659</heading>
+				<tilt>20.48672542526613</tilt>
+				<range>63.65947629075892</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ltblu-pushpin41</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-68.37166126250651,-34.62641204016101,0</coordinates>
+			</Point>
+		</Placemark>
+		<atom:link rel="app" href="https://www.google.com/earth/about/versions/#earth-pro" title="Google Earth Pro 7.3.6.10201"></atom:link>
+	</Folder>
+</Document>
+</kml>
