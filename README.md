@@ -23,7 +23,6 @@
 2. Ambos sistemas suplirán problemas específicos, uno dentro de nuestra subdelegación en el Área de Contaminaciones y otro a nivel general en el departamento de Mendoza en el área de Aguas Subterráneas.
 <br>
 3. Analizar y modificar capas de Qgis y Google Earth Pro extraídas de la página https://mapas-distribucion.cloud.irrigacion.gov.ar/ y https://ide.irrigacion.gov.ar/mapstore/#/viewer/openlayers/130, servidores de mapas de Irrigación con el fin de corregir Información y Actualizar las mismas para que sean más fáciles las tareas diarias de los empleados en la Subdelegación.
----
 
 ### Paleta de Colores 
 <div align="left">
