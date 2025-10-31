@@ -1,4 +1,4 @@
-**
+/**
  * Lista de usuarios y sus correos electrónicos.
  */
 const usuariosCorreos = [
@@ -19,15 +19,16 @@ function enviarCorreosChequeResolucion() {
     console.log(`Procesando fila ${i + 1}: ${JSON.stringify({solicitante, titularCheque, expteNum, nota,excelMes, anio,expteElectronico,pozo,estado , diasReemplazo, resolucion,notificada, vencimientoResolucion, pozoNuevo, vencimientoCheque, fechaOrdenDevolucion,directorTecnico, observaciones,acta, fecha, estadoCorreo})}`);
     console.log(`Valor en estadoCorreo (Fila ${i + 1}): "${estadoCorreo}"`);
 
-        // Verificar si el correo ya fue enviado
-     if (String(estadoCorreo).trim() === "Correo Enviado") {
+    // Verificar si el correo ya fue enviado
+    if (String(estadoCorreo).trim() === "Correo Enviado") {
       console.log(`Fila ${i + 1}: Correo ya enviado, se omite.`);
-     continue;
-     }
+      continue;
+    }
 
     try {
       // Verificar vencimiento del cheque
-      if (esFechaValida(vencimientoCheque) && esDentroDelRango(hoy, vencimientoCheque, 6)) { // Cambiado a 6 días
+      // NOTA: El rango de aviso se mantiene en 30 días, según tu código.
+      if (esFechaValida(vencimientoCheque) && esDentroDelRango(hoy, vencimientoCheque, 30)) { 
         console.log(`Fila ${i + 1}: Correo cheque a enviar.`);
         usuariosCorreos.forEach(usuario => {
           enviarCorreoHTML(
@@ -38,7 +39,6 @@ function enviarCorreosChequeResolucion() {
       }
     } catch (error) {
       console.error(`Error procesando fila ${i + 1}: ${error.message}`);
-      
     }
   }
 }
@@ -50,12 +50,22 @@ function enviarCorreoHTML(nombreInterno, fechaVencimiento, titularCheque, expteN
   try {
     const fechaVencimientoFormateada = new Date(fechaVencimiento).toLocaleDateString('es-AR'); // Formato DD/MM/AAAA
 
-    // Formato del mensaje en HTML (sin cambios, conserva los estilos)
+    // 1. DEFINICIÓN DE LAS IDS DE GOOGLE DRIVE (¡ACTUALIZADAS!)
+    const ID_BANNER_SUPERIOR = "1UfIXge5hgjedE-jlQrQM0qcVyQmzwstL"; // ID de la primera URL
+    const ID_BANNER_INFERIOR = "1q6slx7sBSz9SWjKDN_kJlus9fYPXuLiA"; // ID de la segunda URL
+    
+    // 2. CARGA DE LAS IMÁGENES COMO BLOB DE DATOS
+    // Asumo que ambas son JPEG. Si alguna es PNG, ajusta "image/jpeg" a "image/png"
+    const bannerSuperior = DriveApp.getFileById(ID_BANNER_SUPERIOR).getAs("image/jpeg").setName("bannerSup");
+    const bannerInferior = DriveApp.getFileById(ID_BANNER_INFERIOR).getAs("image/jpeg").setName("bannerInf");
+
+
+    // 3. FORMATO DEL MENSAJE HTML USANDO 'cid:'
     const mensajeHTML = `
     <html>
-     <body style="font-family: Arial, sans-serif; color: #333;">
+      <body style="font-family: Arial, sans-serif; color: #333;">
         <div style="margin-top: 10px; text-align: center;">
-            <img src="https://i.imgur.com/uO0EB6o.jpeg" alt="Imagen" style="max-width: 100%; height: auto; border-radius: 5px;">
+            <img src="cid:bannerSup" alt="Banner Superior" style="max-width: 100%; height: auto; border-radius: 5px;">
         </div>
         <div style="background-color: #f4f4f4; padding: 20px; border-radius: 5px;">
             <h2 style="color: #00aaff;">Hola ${nombreInterno || "Estimado/a"}!</h2>
@@ -100,23 +110,27 @@ function enviarCorreoHTML(nombreInterno, fechaVencimiento, titularCheque, expteN
             </table>
         </div>
         <div style="margin-top: 10px; text-align: center;">
-            <img src="https://i.imgur.com/PpYjraZ.jpeg" alt="Imagen" style="max-width: 100%; height: auto; border-radius: 5px;">
+            <img src="cid:bannerInf" alt="Banner Inferior" style="max-width: 100%; height: auto; border-radius: 5px;">
         </div>
       </body>
     </html>`;
 
-    // Enviar el correo
+    // 4. ENVÍO DEL CORREO CON LAS IMÁGENES INLINE
     MailApp.sendEmail({
       to: correo,
       subject: asunto,
       htmlBody: mensajeHTML,
+      inlineImages: { // Nuevo parámetro crucial
+        bannerSup: bannerSuperior,
+        bannerInf: bannerInferior
+      }
     })
 
     console.log(`Correo enviado a ${correo} exitosamente.`);
 
     // Actualizar estado en la hoja
-   hoja.getRange(fila, 21).setValue("Correo Enviado").setFontColor("green");
-SpreadsheetApp.flush();
+    hoja.getRange(fila, 21).setValue("Correo Enviado").setFontColor("green");
+    SpreadsheetApp.flush();
 
   } catch (error) {
     console.error(`Error al enviar correo a ${correo}: ${error.message}`);
@@ -141,4 +155,3 @@ function esDentroDelRango(hoy, fechaVencimiento, dias) {
   console.log(`Diferencia de días para ${fechaVencimiento}: ${diferencia}`);
   return diferencia >= 0 && diferencia <= dias;
 }
-
